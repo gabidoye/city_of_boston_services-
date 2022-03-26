@@ -56,5 +56,8 @@ This project produces a pipeline which:
 2. Percent of ticket resolved ontime
 3. Maximum no of days to resolve a ticket in each category
 4. Most frequent request
+5. Average resolution time of a case type
 
 ## Dashboard Tiles
+## 
+[Visualization](https://datastudio.google.com/reporting/d99a4623-74d2-40ee-a1f6-7e3180cb77e2)
