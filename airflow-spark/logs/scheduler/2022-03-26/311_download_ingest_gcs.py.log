@@ -1,0 +1,619 @@
+[2022-03-26 00:32:02,279] {scheduler_job.py:182} INFO - Started process (PID=2033) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 00:32:02,284] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 00:32:02,289] {logging_mixin.py:104} INFO - [2022-03-26 00:32:02,288] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 00:32:07,332] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 00:32:07,681] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 00:32:07,751] {logging_mixin.py:104} INFO - [2022-03-26 00:32:07,746] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 00:32:07,868] {logging_mixin.py:104} INFO - [2022-03-26 00:32:07,867] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 00:32:07,889] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 5.618 seconds
+[2022-03-26 01:55:00,404] {scheduler_job.py:182} INFO - Started process (PID=2065) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 01:55:00,410] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 01:55:00,414] {logging_mixin.py:104} INFO - [2022-03-26 01:55:00,413] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 01:55:05,630] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 01:55:05,942] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 01:55:06,003] {logging_mixin.py:104} INFO - [2022-03-26 01:55:05,998] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:55:06,104] {logging_mixin.py:104} INFO - [2022-03-26 01:55:06,104] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 01:55:06,123] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 5.728 seconds
+[2022-03-26 03:15:56,421] {scheduler_job.py:182} INFO - Started process (PID=2097) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 03:15:56,425] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 03:15:56,429] {logging_mixin.py:104} INFO - [2022-03-26 03:15:56,429] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 03:16:01,754] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 03:16:02,077] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 03:16:02,137] {logging_mixin.py:104} INFO - [2022-03-26 03:16:02,133] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 03:16:02,237] {logging_mixin.py:104} INFO - [2022-03-26 03:16:02,237] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 03:16:02,256] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 5.843 seconds
+[2022-03-26 04:16:29,016] {scheduler_job.py:182} INFO - Started process (PID=2129) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:16:29,022] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:16:29,026] {logging_mixin.py:104} INFO - [2022-03-26 04:16:29,026] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:16:34,166] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:16:34,525] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:16:34,621] {logging_mixin.py:104} INFO - [2022-03-26 04:16:34,616] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:16:34,724] {logging_mixin.py:104} INFO - [2022-03-26 04:16:34,723] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:16:34,743] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 5.737 seconds
+[2022-03-26 04:17:04,983] {scheduler_job.py:182} INFO - Started process (PID=2157) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:17:04,989] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:17:04,993] {logging_mixin.py:104} INFO - [2022-03-26 04:17:04,992] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:17:08,873] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:17:09,149] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:17:09,208] {logging_mixin.py:104} INFO - [2022-03-26 04:17:09,203] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:17:09,295] {logging_mixin.py:104} INFO - [2022-03-26 04:17:09,295] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:17:09,313] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.338 seconds
+[2022-03-26 04:18:22,079] {scheduler_job.py:182} INFO - Started process (PID=217) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:18:22,082] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:18:22,086] {logging_mixin.py:104} INFO - [2022-03-26 04:18:22,085] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:18:30,447] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:18:31,322] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:18:31,384] {logging_mixin.py:104} INFO - [2022-03-26 04:18:31,379] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:18:31,484] {logging_mixin.py:104} INFO - [2022-03-26 04:18:31,483] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:18:31,501] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 9.430 seconds
+[2022-03-26 04:19:02,573] {scheduler_job.py:182} INFO - Started process (PID=263) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:19:02,577] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:19:02,580] {logging_mixin.py:104} INFO - [2022-03-26 04:19:02,579] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:19:06,851] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:19:07,190] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:19:07,256] {logging_mixin.py:104} INFO - [2022-03-26 04:19:07,251] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:19:07,366] {logging_mixin.py:104} INFO - [2022-03-26 04:19:07,366] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:19:07,384] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.818 seconds
+[2022-03-26 04:19:37,891] {scheduler_job.py:182} INFO - Started process (PID=294) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:19:37,896] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:19:37,901] {logging_mixin.py:104} INFO - [2022-03-26 04:19:37,900] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:19:42,014] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:19:42,327] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:19:42,391] {logging_mixin.py:104} INFO - [2022-03-26 04:19:42,386] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:19:42,494] {logging_mixin.py:104} INFO - [2022-03-26 04:19:42,493] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:19:42,516] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.631 seconds
+[2022-03-26 04:20:13,210] {scheduler_job.py:182} INFO - Started process (PID=326) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:20:13,215] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:20:13,219] {logging_mixin.py:104} INFO - [2022-03-26 04:20:13,218] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:20:18,034] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:20:18,420] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:20:18,489] {logging_mixin.py:104} INFO - [2022-03-26 04:20:18,484] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:20:18,612] {logging_mixin.py:104} INFO - [2022-03-26 04:20:18,612] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:20:18,638] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 5.435 seconds
+[2022-03-26 04:20:49,533] {scheduler_job.py:182} INFO - Started process (PID=358) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:20:49,538] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:20:49,542] {logging_mixin.py:104} INFO - [2022-03-26 04:20:49,542] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:20:53,333] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:20:53,616] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:20:53,677] {logging_mixin.py:104} INFO - [2022-03-26 04:20:53,672] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:20:53,771] {logging_mixin.py:104} INFO - [2022-03-26 04:20:53,770] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:20:53,787] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.263 seconds
+[2022-03-26 04:21:24,747] {scheduler_job.py:182} INFO - Started process (PID=390) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:21:24,757] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:21:24,760] {logging_mixin.py:104} INFO - [2022-03-26 04:21:24,759] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:21:28,487] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:21:28,763] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:21:28,819] {logging_mixin.py:104} INFO - [2022-03-26 04:21:28,815] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:21:28,911] {logging_mixin.py:104} INFO - [2022-03-26 04:21:28,911] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:21:28,930] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.191 seconds
+[2022-03-26 04:21:59,959] {scheduler_job.py:182} INFO - Started process (PID=429) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:21:59,963] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:21:59,965] {logging_mixin.py:104} INFO - [2022-03-26 04:21:59,965] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:22:03,725] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:22:04,026] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:22:04,088] {logging_mixin.py:104} INFO - [2022-03-26 04:22:04,084] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:22:04,186] {logging_mixin.py:104} INFO - [2022-03-26 04:22:04,186] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:22:04,204] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.253 seconds
+[2022-03-26 04:23:30,555] {scheduler_job.py:182} INFO - Started process (PID=215) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:23:30,559] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:23:30,562] {logging_mixin.py:104} INFO - [2022-03-26 04:23:30,562] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:23:38,850] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:23:39,729] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:23:39,790] {logging_mixin.py:104} INFO - [2022-03-26 04:23:39,785] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:23:39,892] {logging_mixin.py:104} INFO - [2022-03-26 04:23:39,891] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:23:39,913] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 9.366 seconds
+[2022-03-26 04:24:10,723] {scheduler_job.py:182} INFO - Started process (PID=247) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:24:10,727] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:24:10,731] {logging_mixin.py:104} INFO - [2022-03-26 04:24:10,730] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:24:14,891] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:24:15,191] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:24:15,255] {logging_mixin.py:104} INFO - [2022-03-26 04:24:15,250] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:24:15,357] {logging_mixin.py:104} INFO - [2022-03-26 04:24:15,357] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:24:15,377] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.662 seconds
+[2022-03-26 04:24:46,169] {scheduler_job.py:182} INFO - Started process (PID=279) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:24:46,174] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:24:46,177] {logging_mixin.py:104} INFO - [2022-03-26 04:24:46,176] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:24:50,266] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:24:50,575] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:24:50,637] {logging_mixin.py:104} INFO - [2022-03-26 04:24:50,633] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:24:50,738] {logging_mixin.py:104} INFO - [2022-03-26 04:24:50,738] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:24:50,788] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.626 seconds
+[2022-03-26 04:25:21,432] {scheduler_job.py:182} INFO - Started process (PID=311) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:25:21,437] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:25:21,441] {logging_mixin.py:104} INFO - [2022-03-26 04:25:21,440] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:25:26,347] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:25:26,682] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:25:26,748] {logging_mixin.py:104} INFO - [2022-03-26 04:25:26,742] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:25:26,867] {logging_mixin.py:104} INFO - [2022-03-26 04:25:26,866] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:25:26,891] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 5.470 seconds
+[2022-03-26 04:25:57,066] {scheduler_job.py:182} INFO - Started process (PID=343) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:25:57,071] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:25:57,074] {logging_mixin.py:104} INFO - [2022-03-26 04:25:57,074] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:26:00,830] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:26:01,113] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:26:01,170] {logging_mixin.py:104} INFO - [2022-03-26 04:26:01,166] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:26:01,263] {logging_mixin.py:104} INFO - [2022-03-26 04:26:01,263] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:26:01,282] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.224 seconds
+[2022-03-26 04:26:32,159] {scheduler_job.py:182} INFO - Started process (PID=375) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:26:32,168] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:26:32,172] {logging_mixin.py:104} INFO - [2022-03-26 04:26:32,171] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:26:35,850] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:26:36,120] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:26:36,177] {logging_mixin.py:104} INFO - [2022-03-26 04:26:36,172] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:26:36,267] {logging_mixin.py:104} INFO - [2022-03-26 04:26:36,267] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:26:36,284] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.134 seconds
+[2022-03-26 04:27:07,153] {scheduler_job.py:182} INFO - Started process (PID=407) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:27:07,157] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:27:07,160] {logging_mixin.py:104} INFO - [2022-03-26 04:27:07,159] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:27:10,824] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:27:11,093] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:27:11,165] {logging_mixin.py:104} INFO - [2022-03-26 04:27:11,160] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:27:11,267] {logging_mixin.py:104} INFO - [2022-03-26 04:27:11,267] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:27:11,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.142 seconds
+[2022-03-26 04:45:31,621] {scheduler_job.py:182} INFO - Started process (PID=218) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:45:31,627] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:45:31,630] {logging_mixin.py:104} INFO - [2022-03-26 04:45:31,629] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:45:40,040] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:45:40,895] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:45:40,964] {logging_mixin.py:104} INFO - [2022-03-26 04:45:40,960] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:45:41,072] {logging_mixin.py:104} INFO - [2022-03-26 04:45:41,072] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:45:41,106] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 9.492 seconds
+[2022-03-26 04:46:11,718] {scheduler_job.py:182} INFO - Started process (PID=265) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:46:11,722] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:46:11,725] {logging_mixin.py:104} INFO - [2022-03-26 04:46:11,725] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:46:15,857] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:46:16,167] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:46:16,227] {logging_mixin.py:104} INFO - [2022-03-26 04:46:16,223] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:46:16,329] {logging_mixin.py:104} INFO - [2022-03-26 04:46:16,329] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:46:16,352] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.641 seconds
+[2022-03-26 04:46:46,988] {scheduler_job.py:182} INFO - Started process (PID=297) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:46:46,993] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:46:46,996] {logging_mixin.py:104} INFO - [2022-03-26 04:46:46,995] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:46:51,083] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:46:51,380] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:46:51,442] {logging_mixin.py:104} INFO - [2022-03-26 04:46:51,437] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:46:51,543] {logging_mixin.py:104} INFO - [2022-03-26 04:46:51,543] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:46:51,562] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.582 seconds
+[2022-03-26 04:47:22,373] {scheduler_job.py:182} INFO - Started process (PID=329) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:47:22,379] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:47:22,383] {logging_mixin.py:104} INFO - [2022-03-26 04:47:22,382] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:47:27,250] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:47:27,641] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:47:27,711] {logging_mixin.py:104} INFO - [2022-03-26 04:47:27,706] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:47:27,828] {logging_mixin.py:104} INFO - [2022-03-26 04:47:27,828] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:47:27,850] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 5.485 seconds
+[2022-03-26 04:47:58,685] {scheduler_job.py:182} INFO - Started process (PID=361) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:47:58,689] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:47:58,692] {logging_mixin.py:104} INFO - [2022-03-26 04:47:58,692] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:48:02,525] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:48:02,799] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:48:02,857] {logging_mixin.py:104} INFO - [2022-03-26 04:48:02,852] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:48:02,946] {logging_mixin.py:104} INFO - [2022-03-26 04:48:02,946] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:48:02,962] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.285 seconds
+[2022-03-26 04:48:33,632] {scheduler_job.py:182} INFO - Started process (PID=393) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:48:33,636] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:48:33,639] {logging_mixin.py:104} INFO - [2022-03-26 04:48:33,638] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:48:37,400] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:48:37,685] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:48:37,744] {logging_mixin.py:104} INFO - [2022-03-26 04:48:37,740] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:48:37,836] {logging_mixin.py:104} INFO - [2022-03-26 04:48:37,836] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:48:37,853] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.229 seconds
+[2022-03-26 04:49:08,809] {scheduler_job.py:182} INFO - Started process (PID=428) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:49:08,815] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:49:08,818] {logging_mixin.py:104} INFO - [2022-03-26 04:49:08,818] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:49:12,880] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:49:13,177] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:49:13,234] {logging_mixin.py:104} INFO - [2022-03-26 04:49:13,230] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:49:13,331] {logging_mixin.py:104} INFO - [2022-03-26 04:49:13,330] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:49:13,353] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.551 seconds
+[2022-03-26 04:49:44,010] {scheduler_job.py:182} INFO - Started process (PID=475) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:49:44,014] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:49:44,018] {logging_mixin.py:104} INFO - [2022-03-26 04:49:44,017] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:49:47,709] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:49:47,978] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:49:48,036] {logging_mixin.py:104} INFO - [2022-03-26 04:49:48,031] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:49:48,151] {logging_mixin.py:104} INFO - [2022-03-26 04:49:48,150] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:49:48,168] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.166 seconds
+[2022-03-26 04:50:19,030] {scheduler_job.py:182} INFO - Started process (PID=507) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:50:19,035] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:50:19,039] {logging_mixin.py:104} INFO - [2022-03-26 04:50:19,038] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:50:22,819] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:50:23,111] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:50:23,165] {logging_mixin.py:104} INFO - [2022-03-26 04:50:23,161] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:50:23,259] {logging_mixin.py:104} INFO - [2022-03-26 04:50:23,259] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:50:23,276] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.254 seconds
+[2022-03-26 04:50:54,056] {scheduler_job.py:182} INFO - Started process (PID=557) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:50:54,061] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:50:54,064] {logging_mixin.py:104} INFO - [2022-03-26 04:50:54,064] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:50:57,898] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:50:58,180] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:50:58,254] {logging_mixin.py:104} INFO - [2022-03-26 04:50:58,249] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:50:58,357] {logging_mixin.py:104} INFO - [2022-03-26 04:50:58,356] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:50:58,374] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.324 seconds
+[2022-03-26 04:51:29,083] {scheduler_job.py:182} INFO - Started process (PID=675) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:51:29,097] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:51:29,102] {logging_mixin.py:104} INFO - [2022-03-26 04:51:29,101] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:51:33,364] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:51:33,669] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:51:33,733] {logging_mixin.py:104} INFO - [2022-03-26 04:51:33,728] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:51:33,834] {logging_mixin.py:104} INFO - [2022-03-26 04:51:33,833] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:51:33,854] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.781 seconds
+[2022-03-26 04:52:04,626] {scheduler_job.py:182} INFO - Started process (PID=775) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:52:04,632] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:52:04,635] {logging_mixin.py:104} INFO - [2022-03-26 04:52:04,635] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:52:09,185] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:52:09,516] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:52:09,590] {logging_mixin.py:104} INFO - [2022-03-26 04:52:09,585] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:52:09,702] {logging_mixin.py:104} INFO - [2022-03-26 04:52:09,701] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:52:09,721] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 5.103 seconds
+[2022-03-26 04:52:40,396] {scheduler_job.py:182} INFO - Started process (PID=844) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:52:40,401] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:52:40,403] {logging_mixin.py:104} INFO - [2022-03-26 04:52:40,403] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:52:44,668] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:52:44,981] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:52:45,047] {logging_mixin.py:104} INFO - [2022-03-26 04:52:45,042] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:52:45,146] {logging_mixin.py:104} INFO - [2022-03-26 04:52:45,146] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:52:45,166] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.776 seconds
+[2022-03-26 04:53:15,282] {scheduler_job.py:182} INFO - Started process (PID=876) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:53:15,286] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:53:15,288] {logging_mixin.py:104} INFO - [2022-03-26 04:53:15,288] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:53:19,458] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:53:19,766] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:53:19,829] {logging_mixin.py:104} INFO - [2022-03-26 04:53:19,825] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:53:19,927] {logging_mixin.py:104} INFO - [2022-03-26 04:53:19,926] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:53:19,945] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.669 seconds
+[2022-03-26 04:53:50,386] {scheduler_job.py:182} INFO - Started process (PID=926) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:53:50,391] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:53:50,394] {logging_mixin.py:104} INFO - [2022-03-26 04:53:50,393] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:53:54,413] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:53:54,719] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:53:54,795] {logging_mixin.py:104} INFO - [2022-03-26 04:53:54,790] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:53:54,892] {logging_mixin.py:104} INFO - [2022-03-26 04:53:54,892] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:53:54,911] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.533 seconds
+[2022-03-26 04:54:25,521] {scheduler_job.py:182} INFO - Started process (PID=958) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:54:25,528] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:54:25,531] {logging_mixin.py:104} INFO - [2022-03-26 04:54:25,531] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:54:29,532] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:54:29,842] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:54:29,903] {logging_mixin.py:104} INFO - [2022-03-26 04:54:29,898] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:54:30,009] {logging_mixin.py:104} INFO - [2022-03-26 04:54:30,009] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:54:30,027] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.513 seconds
+[2022-03-26 04:55:00,715] {scheduler_job.py:182} INFO - Started process (PID=990) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:55:00,721] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:55:00,725] {logging_mixin.py:104} INFO - [2022-03-26 04:55:00,724] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:55:04,771] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:55:05,085] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:55:05,145] {logging_mixin.py:104} INFO - [2022-03-26 04:55:05,140] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:55:05,244] {logging_mixin.py:104} INFO - [2022-03-26 04:55:05,243] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:55:05,264] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.556 seconds
+[2022-03-26 04:55:36,032] {scheduler_job.py:182} INFO - Started process (PID=1022) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:55:36,036] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:55:36,039] {logging_mixin.py:104} INFO - [2022-03-26 04:55:36,039] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:55:40,092] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:55:40,406] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:55:40,465] {logging_mixin.py:104} INFO - [2022-03-26 04:55:40,461] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:55:40,563] {logging_mixin.py:104} INFO - [2022-03-26 04:55:40,563] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:55:40,581] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.556 seconds
+[2022-03-26 04:56:11,409] {scheduler_job.py:182} INFO - Started process (PID=1054) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:56:11,414] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:56:11,416] {logging_mixin.py:104} INFO - [2022-03-26 04:56:11,416] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:56:15,443] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:56:15,766] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:56:15,828] {logging_mixin.py:104} INFO - [2022-03-26 04:56:15,824] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:56:15,930] {logging_mixin.py:104} INFO - [2022-03-26 04:56:15,929] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:56:15,949] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.546 seconds
+[2022-03-26 04:56:46,036] {scheduler_job.py:182} INFO - Started process (PID=1086) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:56:46,040] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:56:46,043] {logging_mixin.py:104} INFO - [2022-03-26 04:56:46,043] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:56:50,102] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:56:50,409] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:56:50,469] {logging_mixin.py:104} INFO - [2022-03-26 04:56:50,464] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:56:50,578] {logging_mixin.py:104} INFO - [2022-03-26 04:56:50,577] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:56:50,597] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.568 seconds
+[2022-03-26 04:57:20,721] {scheduler_job.py:182} INFO - Started process (PID=1118) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:57:20,727] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:57:20,730] {logging_mixin.py:104} INFO - [2022-03-26 04:57:20,730] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:57:24,913] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:57:25,220] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:57:25,281] {logging_mixin.py:104} INFO - [2022-03-26 04:57:25,276] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:57:25,378] {logging_mixin.py:104} INFO - [2022-03-26 04:57:25,378] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:57:25,398] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.683 seconds
+[2022-03-26 04:57:55,992] {scheduler_job.py:182} INFO - Started process (PID=1168) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:57:55,997] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:57:55,999] {logging_mixin.py:104} INFO - [2022-03-26 04:57:55,999] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:58:00,025] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:58:00,344] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:58:00,408] {logging_mixin.py:104} INFO - [2022-03-26 04:58:00,404] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:58:00,515] {logging_mixin.py:104} INFO - [2022-03-26 04:58:00,514] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:58:00,533] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.547 seconds
+[2022-03-26 04:58:31,161] {scheduler_job.py:182} INFO - Started process (PID=1200) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:58:31,166] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:58:31,169] {logging_mixin.py:104} INFO - [2022-03-26 04:58:31,169] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:58:35,143] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:58:35,453] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:58:35,513] {logging_mixin.py:104} INFO - [2022-03-26 04:58:35,509] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:58:35,610] {logging_mixin.py:104} INFO - [2022-03-26 04:58:35,610] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:58:35,628] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.474 seconds
+[2022-03-26 04:59:06,306] {scheduler_job.py:182} INFO - Started process (PID=1232) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:59:06,311] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:59:06,314] {logging_mixin.py:104} INFO - [2022-03-26 04:59:06,313] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:59:10,344] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:59:10,653] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:59:10,713] {logging_mixin.py:104} INFO - [2022-03-26 04:59:10,708] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:59:10,809] {logging_mixin.py:104} INFO - [2022-03-26 04:59:10,808] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:59:10,827] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.527 seconds
+[2022-03-26 04:59:41,019] {scheduler_job.py:182} INFO - Started process (PID=1264) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:59:41,024] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 04:59:41,027] {logging_mixin.py:104} INFO - [2022-03-26 04:59:41,026] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:59:45,014] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 04:59:45,325] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 04:59:45,385] {logging_mixin.py:104} INFO - [2022-03-26 04:59:45,380] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 04:59:45,486] {logging_mixin.py:104} INFO - [2022-03-26 04:59:45,486] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 04:59:45,505] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.493 seconds
+[2022-03-26 05:00:16,170] {scheduler_job.py:182} INFO - Started process (PID=1296) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:00:16,174] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:00:16,177] {logging_mixin.py:104} INFO - [2022-03-26 05:00:16,176] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:00:20,138] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:00:20,461] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:00:20,520] {logging_mixin.py:104} INFO - [2022-03-26 05:00:20,516] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:00:20,617] {logging_mixin.py:104} INFO - [2022-03-26 05:00:20,617] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:00:20,636] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.473 seconds
+[2022-03-26 05:00:51,344] {scheduler_job.py:182} INFO - Started process (PID=1328) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:00:51,348] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:00:51,352] {logging_mixin.py:104} INFO - [2022-03-26 05:00:51,352] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:00:55,278] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:00:55,608] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:00:55,667] {logging_mixin.py:104} INFO - [2022-03-26 05:00:55,663] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:00:55,765] {logging_mixin.py:104} INFO - [2022-03-26 05:00:55,765] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:00:55,785] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.447 seconds
+[2022-03-26 05:01:26,449] {scheduler_job.py:182} INFO - Started process (PID=1360) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:01:26,453] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:01:26,455] {logging_mixin.py:104} INFO - [2022-03-26 05:01:26,455] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:01:30,379] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:01:30,693] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:01:30,752] {logging_mixin.py:104} INFO - [2022-03-26 05:01:30,747] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:01:30,849] {logging_mixin.py:104} INFO - [2022-03-26 05:01:30,849] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:01:30,867] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.425 seconds
+[2022-03-26 05:02:00,991] {scheduler_job.py:182} INFO - Started process (PID=1392) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:02:00,995] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:02:00,998] {logging_mixin.py:104} INFO - [2022-03-26 05:02:00,998] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:02:04,983] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:02:05,292] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:02:05,351] {logging_mixin.py:104} INFO - [2022-03-26 05:02:05,347] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:02:05,453] {logging_mixin.py:104} INFO - [2022-03-26 05:02:05,452] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:02:05,472] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.489 seconds
+[2022-03-26 05:02:35,703] {scheduler_job.py:182} INFO - Started process (PID=1442) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:02:35,707] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:02:35,710] {logging_mixin.py:104} INFO - [2022-03-26 05:02:35,710] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:02:39,607] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:02:39,923] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:02:39,983] {logging_mixin.py:104} INFO - [2022-03-26 05:02:39,978] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:02:40,079] {logging_mixin.py:104} INFO - [2022-03-26 05:02:40,079] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:02:40,098] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.402 seconds
+[2022-03-26 05:03:10,473] {scheduler_job.py:182} INFO - Started process (PID=1474) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:03:10,479] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:03:10,482] {logging_mixin.py:104} INFO - [2022-03-26 05:03:10,481] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:03:14,431] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:03:14,758] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:03:14,817] {logging_mixin.py:104} INFO - [2022-03-26 05:03:14,812] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:03:14,913] {logging_mixin.py:104} INFO - [2022-03-26 05:03:14,913] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:03:14,932] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.465 seconds
+[2022-03-26 05:03:45,578] {scheduler_job.py:182} INFO - Started process (PID=1506) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:03:45,583] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:03:45,586] {logging_mixin.py:104} INFO - [2022-03-26 05:03:45,586] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:03:49,651] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:03:49,971] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:03:50,030] {logging_mixin.py:104} INFO - [2022-03-26 05:03:50,026] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:03:50,128] {logging_mixin.py:104} INFO - [2022-03-26 05:03:50,128] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:03:50,147] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.578 seconds
+[2022-03-26 05:04:20,306] {scheduler_job.py:182} INFO - Started process (PID=1538) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:04:20,310] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:04:20,313] {logging_mixin.py:104} INFO - [2022-03-26 05:04:20,312] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:04:24,192] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:04:24,523] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:04:24,585] {logging_mixin.py:104} INFO - [2022-03-26 05:04:24,580] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:04:24,683] {logging_mixin.py:104} INFO - [2022-03-26 05:04:24,683] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:04:24,701] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.402 seconds
+[2022-03-26 05:04:55,332] {scheduler_job.py:182} INFO - Started process (PID=1570) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:04:55,337] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:04:55,340] {logging_mixin.py:104} INFO - [2022-03-26 05:04:55,340] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:04:59,197] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:04:59,525] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:04:59,586] {logging_mixin.py:104} INFO - [2022-03-26 05:04:59,581] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:04:59,683] {logging_mixin.py:104} INFO - [2022-03-26 05:04:59,683] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:04:59,702] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.376 seconds
+[2022-03-26 05:05:30,354] {scheduler_job.py:182} INFO - Started process (PID=1602) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:05:30,358] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:05:30,361] {logging_mixin.py:104} INFO - [2022-03-26 05:05:30,361] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:05:34,281] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:05:34,601] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:05:34,664] {logging_mixin.py:104} INFO - [2022-03-26 05:05:34,660] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:05:34,763] {logging_mixin.py:104} INFO - [2022-03-26 05:05:34,763] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:05:34,782] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.438 seconds
+[2022-03-26 05:06:05,295] {scheduler_job.py:182} INFO - Started process (PID=1634) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:06:05,300] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:06:05,303] {logging_mixin.py:104} INFO - [2022-03-26 05:06:05,303] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:06:09,399] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:06:09,711] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:06:09,771] {logging_mixin.py:104} INFO - [2022-03-26 05:06:09,767] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:06:09,870] {logging_mixin.py:104} INFO - [2022-03-26 05:06:09,870] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:06:09,891] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.603 seconds
+[2022-03-26 05:06:40,257] {scheduler_job.py:182} INFO - Started process (PID=1684) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:06:40,261] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:06:40,264] {logging_mixin.py:104} INFO - [2022-03-26 05:06:40,264] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:06:44,228] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:06:44,551] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:06:44,613] {logging_mixin.py:104} INFO - [2022-03-26 05:06:44,608] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:06:44,714] {logging_mixin.py:104} INFO - [2022-03-26 05:06:44,713] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:06:44,732] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.483 seconds
+[2022-03-26 05:07:15,030] {scheduler_job.py:182} INFO - Started process (PID=1716) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:07:15,034] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:07:15,037] {logging_mixin.py:104} INFO - [2022-03-26 05:07:15,037] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:07:18,981] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:07:19,297] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:07:19,355] {logging_mixin.py:104} INFO - [2022-03-26 05:07:19,351] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:07:19,454] {logging_mixin.py:104} INFO - [2022-03-26 05:07:19,453] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:07:19,472] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.450 seconds
+[2022-03-26 05:07:50,106] {scheduler_job.py:182} INFO - Started process (PID=1748) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:07:50,110] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:07:50,113] {logging_mixin.py:104} INFO - [2022-03-26 05:07:50,113] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:07:54,029] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:07:54,341] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:07:54,402] {logging_mixin.py:104} INFO - [2022-03-26 05:07:54,397] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:07:54,501] {logging_mixin.py:104} INFO - [2022-03-26 05:07:54,501] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:07:54,519] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.421 seconds
+[2022-03-26 05:08:25,179] {scheduler_job.py:182} INFO - Started process (PID=1780) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:08:25,184] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:08:25,187] {logging_mixin.py:104} INFO - [2022-03-26 05:08:25,187] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:08:29,092] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:08:29,419] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:08:29,479] {logging_mixin.py:104} INFO - [2022-03-26 05:08:29,474] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:08:29,577] {logging_mixin.py:104} INFO - [2022-03-26 05:08:29,577] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:08:29,596] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.424 seconds
+[2022-03-26 05:08:59,926] {scheduler_job.py:182} INFO - Started process (PID=1812) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:08:59,932] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:08:59,935] {logging_mixin.py:104} INFO - [2022-03-26 05:08:59,935] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:09:04,063] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:09:04,387] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:09:04,453] {logging_mixin.py:104} INFO - [2022-03-26 05:09:04,447] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:09:04,568] {logging_mixin.py:104} INFO - [2022-03-26 05:09:04,568] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:09:04,587] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.668 seconds
+[2022-03-26 05:09:34,682] {scheduler_job.py:182} INFO - Started process (PID=1844) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:09:34,687] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:09:34,690] {logging_mixin.py:104} INFO - [2022-03-26 05:09:34,690] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:09:38,737] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:09:39,061] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:09:39,122] {logging_mixin.py:104} INFO - [2022-03-26 05:09:39,118] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:09:39,225] {logging_mixin.py:104} INFO - [2022-03-26 05:09:39,224] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:09:39,244] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.569 seconds
+[2022-03-26 05:10:09,378] {scheduler_job.py:182} INFO - Started process (PID=1876) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:10:09,383] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:10:09,385] {logging_mixin.py:104} INFO - [2022-03-26 05:10:09,385] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:10:13,363] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:10:13,680] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:10:13,739] {logging_mixin.py:104} INFO - [2022-03-26 05:10:13,735] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:10:13,842] {logging_mixin.py:104} INFO - [2022-03-26 05:10:13,842] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:10:13,864] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.493 seconds
+[2022-03-26 05:10:44,244] {scheduler_job.py:182} INFO - Started process (PID=1908) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:10:44,249] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:10:44,254] {logging_mixin.py:104} INFO - [2022-03-26 05:10:44,254] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:10:48,331] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:10:48,660] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:10:48,720] {logging_mixin.py:104} INFO - [2022-03-26 05:10:48,715] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:10:48,818] {logging_mixin.py:104} INFO - [2022-03-26 05:10:48,817] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:10:48,837] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.600 seconds
+[2022-03-26 05:11:19,169] {scheduler_job.py:182} INFO - Started process (PID=1958) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:11:19,174] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:11:19,177] {logging_mixin.py:104} INFO - [2022-03-26 05:11:19,176] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:11:23,120] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:11:23,440] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:11:23,500] {logging_mixin.py:104} INFO - [2022-03-26 05:11:23,496] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:11:23,599] {logging_mixin.py:104} INFO - [2022-03-26 05:11:23,598] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:11:23,617] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.455 seconds
+[2022-03-26 05:11:53,949] {scheduler_job.py:182} INFO - Started process (PID=1990) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:11:53,954] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:11:53,957] {logging_mixin.py:104} INFO - [2022-03-26 05:11:53,956] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:11:57,927] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:11:58,254] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:11:58,318] {logging_mixin.py:104} INFO - [2022-03-26 05:11:58,313] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:11:58,418] {logging_mixin.py:104} INFO - [2022-03-26 05:11:58,418] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:11:58,436] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.495 seconds
+[2022-03-26 05:12:29,088] {scheduler_job.py:182} INFO - Started process (PID=2022) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:12:29,092] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:12:29,095] {logging_mixin.py:104} INFO - [2022-03-26 05:12:29,095] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:12:32,962] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:12:33,274] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:12:33,334] {logging_mixin.py:104} INFO - [2022-03-26 05:12:33,329] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:12:33,452] {logging_mixin.py:104} INFO - [2022-03-26 05:12:33,452] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:12:33,470] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.389 seconds
+[2022-03-26 05:13:04,117] {scheduler_job.py:182} INFO - Started process (PID=2054) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:13:04,122] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:13:04,124] {logging_mixin.py:104} INFO - [2022-03-26 05:13:04,124] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:13:08,017] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:13:08,350] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:13:08,411] {logging_mixin.py:104} INFO - [2022-03-26 05:13:08,406] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:13:08,509] {logging_mixin.py:104} INFO - [2022-03-26 05:13:08,508] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:13:08,527] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.417 seconds
+[2022-03-26 05:13:38,594] {scheduler_job.py:182} INFO - Started process (PID=2086) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:13:38,600] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:13:38,605] {logging_mixin.py:104} INFO - [2022-03-26 05:13:38,604] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:13:42,896] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:13:43,245] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:13:43,317] {logging_mixin.py:104} INFO - [2022-03-26 05:13:43,313] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:13:43,442] {logging_mixin.py:104} INFO - [2022-03-26 05:13:43,441] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:13:43,465] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.879 seconds
+[2022-03-26 05:14:14,153] {scheduler_job.py:182} INFO - Started process (PID=2118) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:14:14,157] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:14:14,160] {logging_mixin.py:104} INFO - [2022-03-26 05:14:14,160] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:14:18,321] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:14:18,646] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:14:18,708] {logging_mixin.py:104} INFO - [2022-03-26 05:14:18,704] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:14:18,808] {logging_mixin.py:104} INFO - [2022-03-26 05:14:18,807] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:14:18,826] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.681 seconds
+[2022-03-26 05:14:48,914] {scheduler_job.py:182} INFO - Started process (PID=2150) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:14:48,919] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:14:48,922] {logging_mixin.py:104} INFO - [2022-03-26 05:14:48,922] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:14:53,105] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:14:53,458] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:14:53,517] {logging_mixin.py:104} INFO - [2022-03-26 05:14:53,512] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:14:53,649] {logging_mixin.py:104} INFO - [2022-03-26 05:14:53,649] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:14:53,675] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.768 seconds
+[2022-03-26 05:15:24,055] {scheduler_job.py:182} INFO - Started process (PID=2200) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:15:24,059] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:15:24,062] {logging_mixin.py:104} INFO - [2022-03-26 05:15:24,062] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:15:27,984] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:15:28,281] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:15:28,355] {logging_mixin.py:104} INFO - [2022-03-26 05:15:28,350] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:15:28,462] {logging_mixin.py:104} INFO - [2022-03-26 05:15:28,462] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:15:28,481] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.432 seconds
+[2022-03-26 05:15:58,673] {scheduler_job.py:182} INFO - Started process (PID=2232) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:15:58,677] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:15:58,680] {logging_mixin.py:104} INFO - [2022-03-26 05:15:58,679] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:16:02,660] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:16:02,953] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:16:03,012] {logging_mixin.py:104} INFO - [2022-03-26 05:16:03,008] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:16:03,103] {logging_mixin.py:104} INFO - [2022-03-26 05:16:03,103] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:16:03,121] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.455 seconds
+[2022-03-26 05:16:33,290] {scheduler_job.py:182} INFO - Started process (PID=2264) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:16:33,294] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:16:33,297] {logging_mixin.py:104} INFO - [2022-03-26 05:16:33,296] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:16:37,174] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py:37 DeprecationWarning: This module is deprecated. Please use `airflow.operators.sql`.
+[2022-03-26 05:16:37,463] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['fifa_player_dag']) retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:16:37,521] {logging_mixin.py:104} INFO - [2022-03-26 05:16:37,517] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 05:16:37,611] {logging_mixin.py:104} INFO - [2022-03-26 05:16:37,611] {dag.py:2273} INFO - Setting next_dagrun for fifa_player_dag to 2022-03-02 06:00:00+00:00
+[2022-03-26 05:16:37,629] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 4.346 seconds
+[2022-03-26 05:17:07,790] {scheduler_job.py:182} INFO - Started process (PID=2296) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:17:07,794] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:17:07,797] {logging_mixin.py:104} INFO - [2022-03-26 05:17:07,797] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:17:07,801] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:17:07,804] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 0.021 seconds
+[2022-03-26 05:17:38,425] {scheduler_job.py:182} INFO - Started process (PID=2327) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:17:38,430] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:17:38,433] {logging_mixin.py:104} INFO - [2022-03-26 05:17:38,432] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:17:38,437] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:17:38,439] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 0.020 seconds
+[2022-03-26 05:18:09,058] {scheduler_job.py:182} INFO - Started process (PID=2358) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:18:09,065] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:18:09,068] {logging_mixin.py:104} INFO - [2022-03-26 05:18:09,067] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:18:09,071] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:18:09,074] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 0.022 seconds
+[2022-03-26 05:18:39,884] {scheduler_job.py:182} INFO - Started process (PID=2389) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:18:39,887] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:18:39,890] {logging_mixin.py:104} INFO - [2022-03-26 05:18:39,890] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:18:39,894] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:18:39,897] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 0.020 seconds
+[2022-03-26 05:19:10,693] {scheduler_job.py:182} INFO - Started process (PID=2420) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:19:10,697] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:19:10,700] {logging_mixin.py:104} INFO - [2022-03-26 05:19:10,699] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:19:10,704] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:19:10,706] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 0.020 seconds
+[2022-03-26 05:19:41,416] {scheduler_job.py:182} INFO - Started process (PID=2451) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:19:41,420] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:19:41,422] {logging_mixin.py:104} INFO - [2022-03-26 05:19:41,422] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:19:41,426] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:19:41,428] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 0.019 seconds
+[2022-03-26 05:20:12,042] {scheduler_job.py:182} INFO - Started process (PID=2480) to work on /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:20:12,046] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/311_download_ingest_gcs.py for tasks to queue
+[2022-03-26 05:20:12,051] {logging_mixin.py:104} INFO - [2022-03-26 05:20:12,050] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:20:12,060] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/311_download_ingest_gcs.py
+[2022-03-26 05:20:12,066] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/311_download_ingest_gcs.py took 0.032 seconds

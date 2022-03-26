@@ -1,0 +1,90 @@
+[2022-03-24 17:31:51,448] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: sparkoperator_demo.spark_submit_task 2022-03-24T17:31:49.356695+00:00 [queued]>
+[2022-03-24 17:31:51,486] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: sparkoperator_demo.spark_submit_task 2022-03-24T17:31:49.356695+00:00 [queued]>
+[2022-03-24 17:31:51,488] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-24 17:31:51,490] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2022-03-24 17:31:51,491] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-24 17:31:51,527] {taskinstance.py:1063} INFO - Executing <Task(SparkSubmitOperator): spark_submit_task> on 2022-03-24T17:31:49.356695+00:00
+[2022-03-24 17:31:51,533] {standard_task_runner.py:52} INFO - Started process 698 to run task
+[2022-03-24 17:31:51,543] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'sparkoperator_demo', 'spark_submit_task', '2022-03-24T17:31:49.356695+00:00', '--job-id', '12', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/spark_job.py', '--cfg-path', '/tmp/tmpvgrw6ttl', '--error-file', '/tmp/tmpmqpngxri']
+[2022-03-24 17:31:51,550] {standard_task_runner.py:77} INFO - Job 12: Subtask spark_submit_task
+[2022-03-24 17:31:51,647] {logging_mixin.py:104} INFO - Running <TaskInstance: sparkoperator_demo.spark_submit_task 2022-03-24T17:31:49.356695+00:00 [running]> on host 581d1616f220
+[2022-03-24 17:31:51,747] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=sparkoperator_demo
+AIRFLOW_CTX_TASK_ID=spark_submit_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-24T17:31:49.356695+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-24T17:31:49.356695+00:00
+[2022-03-24 17:31:51,773] {spark_submit.py:205} INFO - Could not load connection string spark_local, defaulting to yarn
+[2022-03-24 17:31:51,782] {spark_submit.py:335} INFO - Spark-Submit cmd: spark-submit --master yarn --name arrow-spark /home/airflow/datalake/test.py
+[2022-03-24 17:31:59,383] {spark_submit.py:488} INFO - WARNING: An illegal reflective access operation has occurred
+[2022-03-24 17:31:59,386] {spark_submit.py:488} INFO - WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/jars/spark-unsafe_2.12-3.0.0.jar) to constructor java.nio.DirectByteBuffer(long,int)
+[2022-03-24 17:31:59,389] {spark_submit.py:488} INFO - WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+[2022-03-24 17:31:59,391] {spark_submit.py:488} INFO - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[2022-03-24 17:31:59,394] {spark_submit.py:488} INFO - WARNING: All illegal access operations will be denied in a future release
+[2022-03-24 17:32:06,714] {spark_submit.py:488} INFO - 2022-03-24 17:32:06,701 INFO spark.SparkContext: Running Spark version 3.0.0
+[2022-03-24 17:32:07,159] {spark_submit.py:488} INFO - 2022-03-24 17:32:07,156 INFO resource.ResourceUtils: ==============================================================
+[2022-03-24 17:32:07,169] {spark_submit.py:488} INFO - 2022-03-24 17:32:07,167 INFO resource.ResourceUtils: Resources for spark.driver:
+[2022-03-24 17:32:07,171] {spark_submit.py:488} INFO - 
+[2022-03-24 17:32:07,172] {spark_submit.py:488} INFO - 2022-03-24 17:32:07,170 INFO resource.ResourceUtils: ==============================================================
+[2022-03-24 17:32:07,174] {spark_submit.py:488} INFO - 2022-03-24 17:32:07,172 INFO spark.SparkContext: Submitted application: SparkByExamples.com
+[2022-03-24 17:32:07,475] {spark_submit.py:488} INFO - 2022-03-24 17:32:07,474 INFO spark.SecurityManager: Changing view acls to: airflow
+[2022-03-24 17:32:07,477] {spark_submit.py:488} INFO - 2022-03-24 17:32:07,475 INFO spark.SecurityManager: Changing modify acls to: airflow
+[2022-03-24 17:32:07,479] {spark_submit.py:488} INFO - 2022-03-24 17:32:07,475 INFO spark.SecurityManager: Changing view acls groups to:
+[2022-03-24 17:32:07,481] {spark_submit.py:488} INFO - 2022-03-24 17:32:07,476 INFO spark.SecurityManager: Changing modify acls groups to:
+[2022-03-24 17:32:07,483] {spark_submit.py:488} INFO - 2022-03-24 17:32:07,477 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(airflow); groups with view permissions: Set(); users  with modify permissions: Set(airflow); groups with modify permissions: Set()
+[2022-03-24 17:32:08,729] {spark_submit.py:488} INFO - 2022-03-24 17:32:08,721 INFO util.Utils: Successfully started service 'sparkDriver' on port 44065.
+[2022-03-24 17:32:08,869] {spark_submit.py:488} INFO - 2022-03-24 17:32:08,868 INFO spark.SparkEnv: Registering MapOutputTracker
+[2022-03-24 17:32:09,003] {spark_submit.py:488} INFO - 2022-03-24 17:32:09,002 INFO spark.SparkEnv: Registering BlockManagerMaster
+[2022-03-24 17:32:09,062] {spark_submit.py:488} INFO - 2022-03-24 17:32:09,062 INFO storage.BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2022-03-24 17:32:09,066] {spark_submit.py:488} INFO - 2022-03-24 17:32:09,066 INFO storage.BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2022-03-24 17:32:09,215] {spark_submit.py:488} INFO - 2022-03-24 17:32:09,215 INFO spark.SparkEnv: Registering BlockManagerMasterHeartbeat
+[2022-03-24 17:32:09,264] {spark_submit.py:488} INFO - 2022-03-24 17:32:09,263 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-8ce729ce-3146-44fd-abc5-54029a0ec2e3
+[2022-03-24 17:32:09,359] {spark_submit.py:488} INFO - 2022-03-24 17:32:09,359 INFO memory.MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2022-03-24 17:32:09,406] {spark_submit.py:488} INFO - #
+[2022-03-24 17:32:09,408] {spark_submit.py:488} INFO - # A fatal error has been detected by the Java Runtime Environment:
+[2022-03-24 17:32:09,409] {spark_submit.py:488} INFO - #
+[2022-03-24 17:32:09,411] {spark_submit.py:488} INFO - #  SIGSEGV (0xb) at pc=0x000000401cb6defd, pid=700, tid=828
+[2022-03-24 17:32:09,412] {spark_submit.py:488} INFO - #
+[2022-03-24 17:32:09,413] {spark_submit.py:488} INFO - # JRE version: OpenJDK Runtime Environment (11.0.14+9) (build 11.0.14+9-post-Debian-1deb10u1)
+[2022-03-24 17:32:09,415] {spark_submit.py:488} INFO - # Java VM: OpenJDK 64-Bit Server VM (11.0.14+9-post-Debian-1deb10u1, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+[2022-03-24 17:32:09,417] {spark_submit.py:488} INFO - # Problematic frame:
+[2022-03-24 17:32:09,418] {spark_submit.py:488} INFO - # J 1548 c1 com.ctc.wstx.sr.BasicStreamReader.skipCommentOrCData(Ljava/lang/String;CZ)V (265 bytes) @ 0x000000401cb6defd [0x000000401cb6de80+0x000000000000007d]
+[2022-03-24 17:32:09,419] {spark_submit.py:488} INFO - #
+[2022-03-24 17:32:09,420] {spark_submit.py:488} INFO - # No core dump will be written. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+[2022-03-24 17:32:09,421] {spark_submit.py:488} INFO - #
+[2022-03-24 17:32:09,422] {spark_submit.py:488} INFO - # An error report file with more information is saved as:
+[2022-03-24 17:32:09,424] {spark_submit.py:488} INFO - # /opt/airflow/hs_err_pid700.log
+[2022-03-24 17:32:09,426] {spark_submit.py:488} INFO - Compiled method (c1)   15967 1629       3       com.ctc.wstx.sr.BasicStreamReader::skipToken (564 bytes)
+[2022-03-24 17:32:09,427] {spark_submit.py:488} INFO - total in heap  [0x000000401cb8f890,0x000000401cb92478] = 11240
+[2022-03-24 17:32:09,428] {spark_submit.py:488} INFO - relocation     [0x000000401cb8fa08,0x000000401cb8fcd0] = 712
+[2022-03-24 17:32:09,429] {spark_submit.py:488} INFO - main code      [0x000000401cb8fce0,0x000000401cb91a40] = 7520
+[2022-03-24 17:32:09,430] {spark_submit.py:488} INFO - stub code      [0x000000401cb91a40,0x000000401cb91c50] = 528
+[2022-03-24 17:32:09,431] {spark_submit.py:488} INFO - oops           [0x000000401cb91c50,0x000000401cb91c60] = 16
+[2022-03-24 17:32:09,432] {spark_submit.py:488} INFO - metadata       [0x000000401cb91c60,0x000000401cb91cb0] = 80
+[2022-03-24 17:32:09,434] {spark_submit.py:488} INFO - scopes data    [0x000000401cb91cb0,0x000000401cb91f58] = 680
+[2022-03-24 17:32:09,435] {spark_submit.py:488} INFO - scopes pcs     [0x000000401cb91f58,0x000000401cb923f8] = 1184
+[2022-03-24 17:32:09,436] {spark_submit.py:488} INFO - dependencies   [0x000000401cb923f8,0x000000401cb92410] = 24
+[2022-03-24 17:32:09,437] {spark_submit.py:488} INFO - nul chk table  [0x000000401cb92410,0x000000401cb92478] = 104
+[2022-03-24 17:32:09,438] {spark_submit.py:488} INFO - Could not load hsdis-amd64.so; library not loadable; PrintAssembly is disabled
+[2022-03-24 17:32:09,454] {spark_submit.py:488} INFO - #
+[2022-03-24 17:32:09,456] {spark_submit.py:488} INFO - # If you would like to submit a bug report, please visit:
+[2022-03-24 17:32:09,458] {spark_submit.py:488} INFO - #   https://bugs.debian.org/openjdk-11
+[2022-03-24 17:32:09,459] {spark_submit.py:488} INFO - #
+[2022-03-24 17:32:09,460] {spark_submit.py:488} INFO - qemu: uncaught target signal 6 (Aborted) - core dumped
+[2022-03-24 17:32:09,514] {taskinstance.py:1455} ERROR - Cannot execute: spark-submit --master yarn --name arrow-spark /home/airflow/datalake/test.py. Error code is: -6.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.6/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 157, in execute
+    self._hook.submit(self._application)
+  File "/usr/local/lib/python3.6/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 420, in submit
+    f"Cannot execute: {self._mask_cmd(spark_submit_cmd)}. Error code is: {returncode}."
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master yarn --name arrow-spark /home/airflow/datalake/test.py. Error code is: -6.
+[2022-03-24 17:32:09,527] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=sparkoperator_demo, task_id=spark_submit_task, execution_date=20220324T173149, start_date=20220324T173151, end_date=20220324T173209
+[2022-03-24 17:32:09,589] {local_task_job.py:146} INFO - Task exited with return code 1

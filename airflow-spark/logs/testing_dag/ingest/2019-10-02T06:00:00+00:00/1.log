@@ -1,0 +1,45 @@
+[2022-03-17 03:23:43,623] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: testing_dag.ingest 2019-10-02T06:00:00+00:00 [queued]>
+[2022-03-17 03:23:43,658] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: testing_dag.ingest 2019-10-02T06:00:00+00:00 [queued]>
+[2022-03-17 03:23:43,659] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-17 03:23:43,661] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2022-03-17 03:23:43,663] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-17 03:23:43,691] {taskinstance.py:1063} INFO - Executing <Task(BashOperator): ingest> on 2019-10-02T06:00:00+00:00
+[2022-03-17 03:23:43,697] {standard_task_runner.py:52} INFO - Started process 1157 to run task
+[2022-03-17 03:23:43,705] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'testing_dag', 'ingest', '2019-10-02T06:00:00+00:00', '--job-id', '29', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/testing_dag.py', '--cfg-path', '/tmp/tmpl_299dqz', '--error-file', '/tmp/tmpjnamdzr6']
+[2022-03-17 03:23:43,711] {standard_task_runner.py:77} INFO - Job 29: Subtask ingest
+[2022-03-17 03:23:43,808] {logging_mixin.py:104} INFO - Running <TaskInstance: testing_dag.ingest 2019-10-02T06:00:00+00:00 [running]> on host 509d5aa4e827
+[2022-03-17 03:23:43,906] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=testing_dag
+AIRFLOW_CTX_TASK_ID=ingest
+AIRFLOW_CTX_EXECUTION_DATE=2019-10-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-10-02T06:00:00+00:00
+[2022-03-17 03:23:43,909] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2022-03-17 03:23:43,913] {bash.py:158} INFO - Running command: ls /opt/airflow
+[2022-03-17 03:23:43,927] {bash.py:169} INFO - Output:
+[2022-03-17 03:23:43,994] {bash.py:173} INFO - airflow.cfg
+[2022-03-17 03:23:43,996] {bash.py:173} INFO - dags
+[2022-03-17 03:23:43,998] {bash.py:173} INFO - google_credentials.json
+[2022-03-17 03:23:43,999] {bash.py:173} INFO - logs
+[2022-03-17 03:23:44,000] {bash.py:173} INFO - output_2019-01.csv
+[2022-03-17 03:23:44,002] {bash.py:173} INFO - output_2019-02.csv
+[2022-03-17 03:23:44,003] {bash.py:173} INFO - output_2019-03.csv
+[2022-03-17 03:23:44,005] {bash.py:173} INFO - output_2019-04.csv
+[2022-03-17 03:23:44,006] {bash.py:173} INFO - output_2019-05.csv
+[2022-03-17 03:23:44,008] {bash.py:173} INFO - output_2019-06.csv
+[2022-03-17 03:23:44,009] {bash.py:173} INFO - output_2019-07.csv
+[2022-03-17 03:23:44,010] {bash.py:173} INFO - output_2019-08.csv
+[2022-03-17 03:23:44,011] {bash.py:173} INFO - output_2019-09.csv
+[2022-03-17 03:23:44,012] {bash.py:173} INFO - output_2019-10.csv
+[2022-03-17 03:23:44,013] {bash.py:173} INFO - output_2019-11.csv
+[2022-03-17 03:23:44,015] {bash.py:173} INFO - output_2019-12.csv
+[2022-03-17 03:23:44,016] {bash.py:173} INFO - plugins
+[2022-03-17 03:23:44,017] {bash.py:173} INFO - unittests.cfg
+[2022-03-17 03:23:44,018] {bash.py:173} INFO - webserver_config.py
+[2022-03-17 03:23:44,020] {bash.py:177} INFO - Command exited with return code 0
+[2022-03-17 03:23:44,067] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=testing_dag, task_id=ingest, execution_date=20191002T060000, start_date=20220317T032343, end_date=20220317T032344
+[2022-03-17 03:23:44,121] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-03-17 03:23:44,160] {local_task_job.py:146} INFO - Task exited with return code 0

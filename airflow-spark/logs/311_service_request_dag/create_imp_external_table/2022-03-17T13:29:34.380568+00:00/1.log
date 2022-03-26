@@ -1,0 +1,52 @@
+[2022-03-17 13:30:10,959] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: 311_service_request_dag.create_imp_external_table 2022-03-17T13:29:34.380568+00:00 [queued]>
+[2022-03-17 13:30:11,003] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: 311_service_request_dag.create_imp_external_table 2022-03-17T13:29:34.380568+00:00 [queued]>
+[2022-03-17 13:30:11,005] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-17 13:30:11,006] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2022-03-17 13:30:11,008] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-17 13:30:11,033] {taskinstance.py:1063} INFO - Executing <Task(BigQueryCreateExternalTableOperator): create_imp_external_table> on 2022-03-17T13:29:34.380568+00:00
+[2022-03-17 13:30:11,042] {standard_task_runner.py:52} INFO - Started process 2101 to run task
+[2022-03-17 13:30:11,050] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', '311_service_request_dag', 'create_imp_external_table', '2022-03-17T13:29:34.380568+00:00', '--job-id', '58', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/311_download_ingest_gcs.py', '--cfg-path', '/tmp/tmpogpc4_yr', '--error-file', '/tmp/tmp2rrcl2pk']
+[2022-03-17 13:30:11,057] {standard_task_runner.py:77} INFO - Job 58: Subtask create_imp_external_table
+[2022-03-17 13:30:11,143] {logging_mixin.py:104} INFO - Running <TaskInstance: 311_service_request_dag.create_imp_external_table 2022-03-17T13:29:34.380568+00:00 [running]> on host 1a3852343f5d
+[2022-03-17 13:30:11,247] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=311_service_request_dag
+AIRFLOW_CTX_TASK_ID=create_imp_external_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-17T13:29:34.380568+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-17T13:29:34.380568+00:00
+[2022-03-17 13:30:11,259] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-03-17 13:30:11,332] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/hooks/bigquery.py:607 DeprecationWarning: This method is deprecated. Please use `BigQueryHook.create_empty_table` method withpass passing the `table_resource` object. This gives more flexibility than this method.
+[2022-03-17 13:30:11,335] {bigquery.py:667} INFO - Creating external table: dataengineering-bizzy.service_311_request.ext_service_request
+[2022-03-17 13:30:14,929] {taskinstance.py:1455} ERROR - 400 POST https://bigquery.googleapis.com/bigquery/v2/projects/dataengineering-bizzy/datasets/service_311_request/tables?prettyPrint=false: Error while reading table: ext_service_request, error message: Failed to expand table ext_service_request with file pattern gs://datalake-311-bucket/3,gs://datalake-311-bucket/1,gs://datalake-311-bucket/1,gs://datalake-311-bucket/r,gs://datalake-311-bucket/e,gs://datalake-311-bucket/q,gs://datalake-311-bucket/u,gs://datalake-311-bucket/e,gs://datalake-311-bucket/s,gs://datalake-311-bucket/t,gs://datalake-311-bucket/_,gs://datalake-311-bucket/2,gs://datalake-311-bucket/0,gs://datalake-311-bucket/2,gs://datalake-311-bucket/2,gs://datalake-311-bucket/_,gs://datalake-311-bucket/0,gs://datalake-311-bucket/3,gs://datalake-311-bucket/_,gs://datalake-311-bucket/1,gs://datalake-311-bucket/7,gs://datalake-311-bucket/-,gs://datalake-311-bucket/0,gs://datalake-311-bucket/1,gs://datalake-311-bucket/_,gs://datalake-311-bucket/2,gs://datalake-311-bucket/9,gs://datalake-311-bucket/_,gs://datalake-311-bucket/3,gs://datalake-311-bucket/4,gs://datalake-311-bucket/_,gs://datalake-311-bucket/P,gs://datalake-311-bucket/M,gs://datalake-311-bucket/.,gs://datalake-311-bucket/p,gs://datalake-311-bucket/a,gs://datalake-311-bucket/r,gs://datalake-311-bucket/q,gs://datalake-311-bucket/u,gs://datalake-311-bucket/e,gs://datalake-311-bucket/t: matched no files.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 1215, in execute
+    encryption_configuration=self.encryption_configuration,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/common/hooks/base_google.py", line 425, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 669, in create_external_table
+    table_resource=table.to_api_repr(), project_id=project_id, location=location, exists_ok=True
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/common/hooks/base_google.py", line 425, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 381, in create_empty_table
+    table=table, exists_ok=exists_ok, retry=retry
+  File "/home/airflow/.local/lib/python3.6/site-packages/google/cloud/bigquery/client.py", line 622, in create_table
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.6/site-packages/google/cloud/bigquery/client.py", line 640, in _call_api
+    return call()
+  File "/home/airflow/.local/lib/python3.6/site-packages/google/api_core/retry.py", line 286, in retry_wrapped_func
+    on_error=on_error,
+  File "/home/airflow/.local/lib/python3.6/site-packages/google/api_core/retry.py", line 184, in retry_target
+    return target()
+  File "/home/airflow/.local/lib/python3.6/site-packages/google/cloud/_http.py", line 483, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.BadRequest: 400 POST https://bigquery.googleapis.com/bigquery/v2/projects/dataengineering-bizzy/datasets/service_311_request/tables?prettyPrint=false: Error while reading table: ext_service_request, error message: Failed to expand table ext_service_request with file pattern gs://datalake-311-bucket/3,gs://datalake-311-bucket/1,gs://datalake-311-bucket/1,gs://datalake-311-bucket/r,gs://datalake-311-bucket/e,gs://datalake-311-bucket/q,gs://datalake-311-bucket/u,gs://datalake-311-bucket/e,gs://datalake-311-bucket/s,gs://datalake-311-bucket/t,gs://datalake-311-bucket/_,gs://datalake-311-bucket/2,gs://datalake-311-bucket/0,gs://datalake-311-bucket/2,gs://datalake-311-bucket/2,gs://datalake-311-bucket/_,gs://datalake-311-bucket/0,gs://datalake-311-bucket/3,gs://datalake-311-bucket/_,gs://datalake-311-bucket/1,gs://datalake-311-bucket/7,gs://datalake-311-bucket/-,gs://datalake-311-bucket/0,gs://datalake-311-bucket/1,gs://datalake-311-bucket/_,gs://datalake-311-bucket/2,gs://datalake-311-bucket/9,gs://datalake-311-bucket/_,gs://datalake-311-bucket/3,gs://datalake-311-bucket/4,gs://datalake-311-bucket/_,gs://datalake-311-bucket/P,gs://datalake-311-bucket/M,gs://datalake-311-bucket/.,gs://datalake-311-bucket/p,gs://datalake-311-bucket/a,gs://datalake-311-bucket/r,gs://datalake-311-bucket/q,gs://datalake-311-bucket/u,gs://datalake-311-bucket/e,gs://datalake-311-bucket/t: matched no files.
+[2022-03-17 13:30:14,968] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=311_service_request_dag, task_id=create_imp_external_table, execution_date=20220317T132934, start_date=20220317T133010, end_date=20220317T133014
+[2022-03-17 13:30:15,037] {local_task_job.py:146} INFO - Task exited with return code 1

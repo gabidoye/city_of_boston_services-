@@ -1,0 +1,30 @@
+[2022-03-22 05:57:35,358] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: fifa_player_dag.download_dataset 2022-03-22T05:57:29.706572+00:00 [queued]>
+[2022-03-22 05:57:35,399] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: fifa_player_dag.download_dataset 2022-03-22T05:57:29.706572+00:00 [queued]>
+[2022-03-22 05:57:35,401] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-22 05:57:35,402] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2022-03-22 05:57:35,404] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-22 05:57:35,430] {taskinstance.py:1063} INFO - Executing <Task(BashOperator): download_dataset> on 2022-03-22T05:57:29.706572+00:00
+[2022-03-22 05:57:35,440] {standard_task_runner.py:52} INFO - Started process 1468 to run task
+[2022-03-22 05:57:35,449] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'fifa_player_dag', 'download_dataset', '2022-03-22T05:57:29.706572+00:00', '--job-id', '96', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/311_download_ingest_gcs.py', '--cfg-path', '/tmp/tmp711nucw7', '--error-file', '/tmp/tmpsnpevqrr']
+[2022-03-22 05:57:35,457] {standard_task_runner.py:77} INFO - Job 96: Subtask download_dataset
+[2022-03-22 05:57:35,542] {logging_mixin.py:104} INFO - Running <TaskInstance: fifa_player_dag.download_dataset 2022-03-22T05:57:29.706572+00:00 [running]> on host a920a86f34d9
+[2022-03-22 05:57:35,646] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=fifa_player_dag
+AIRFLOW_CTX_TASK_ID=download_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-22T05:57:29.706572+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-22T05:57:29.706572+00:00
+[2022-03-22 05:57:35,654] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2022-03-22 05:57:35,658] {bash.py:158} INFO - Running command: kaggle datasets download -p /opt/airflow stefanoleone992/fifa-22-complete-player-dataset
+[2022-03-22 05:57:35,675] {bash.py:169} INFO - Output:
+[2022-03-22 05:57:38,398] {bash.py:173} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2022-03-22 05:57:38,400] {bash.py:173} INFO - Downloading fifa-22-complete-player-dataset.zip to /opt/airflow
+[2022-03-22 05:57:42,235] {bash.py:173} INFO -   0%|          | 0.00/109M [00:00<?, ?B/s]  1%|          | 1.00M/109M [00:00<00:15, 7.23MB/s]  4%|▎         | 4.00M/109M [00:00<00:06, 17.4MB/s]  6%|▋         | 7.00M/109M [00:00<00:04, 22.3MB/s]  9%|▉         | 10.0M/109M [00:00<00:04, 25.1MB/s] 12%|█▏        | 13.0M/109M [00:00<00:03, 26.3MB/s] 15%|█▍        | 16.0M/109M [00:00<00:03, 27.2MB/s] 17%|█▋        | 19.0M/109M [00:00<00:03, 27.7MB/s] 20%|██        | 22.0M/109M [00:00<00:03, 28.8MB/s] 24%|██▍       | 26.0M/109M [00:01<00:02, 30.0MB/s] 28%|██▊       | 30.0M/109M [00:01<00:02, 30.6MB/s] 30%|███       | 33.0M/109M [00:01<00:02, 28.6MB/s] 33%|███▎      | 36.0M/109M [00:01<00:02, 27.5MB/s] 36%|███▌      | 39.0M/109M [00:01<00:02, 27.4MB/s] 39%|███▊      | 42.0M/109M [00:01<00:02, 27.3MB/s] 41%|████▏     | 45.0M/109M [00:01<00:02, 27.5MB/s] 44%|████▍     | 48.0M/109M [00:01<00:02, 28.2MB/s] 48%|████▊     | 52.0M/109M [00:02<00:01, 29.7MB/s] 51%|█████     | 55.0M/109M [00:02<00:01, 30.0MB/s] 53%|█████▎    | 58.0M/109M [00:02<00:01, 30.3MB/s] 57%|█████▋    | 62.0M/109M [00:02<00:01, 31.3MB/s] 61%|██████    | 66.0M/109M [00:02<00:01, 31.9MB/s] 64%|██████▍   | 70.0M/109M [00:02<00:01, 32.3MB/s] 68%|██████▊   | 74.0M/109M [00:02<00:01, 32.7MB/s] 72%|███████▏  | 78.0M/109M [00:02<00:00, 32.9MB/s] 75%|███████▌  | 82.0M/109M [00:02<00:00, 33.1MB/s] 79%|███████▉  | 86.0M/109M [00:03<00:00, 33.2MB/s] 83%|████████▎ | 90.0M/109M [00:03<00:00, 32.9MB/s] 87%|████████▋ | 94.0M/109M [00:03<00:00, 33.0MB/s] 90%|█████████ | 98.0M/109M [00:03<00:00, 32.8MB/s] 94%|█████████▍| 102M/109M [00:03<00:00, 32.0MB/s]  98%|█████████▊| 106M/109M [00:03<00:00, 31.7MB/s]100%|██████████| 109M/109M [00:03<00:00, 29.7MB/s]
+[2022-03-22 05:57:42,239] {bash.py:173} INFO - 
+[2022-03-22 05:57:42,439] {bash.py:177} INFO - Command exited with return code 0
+[2022-03-22 05:57:42,499] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=fifa_player_dag, task_id=download_dataset, execution_date=20220322T055729, start_date=20220322T055735, end_date=20220322T055742
+[2022-03-22 05:57:42,569] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-03-22 05:57:42,603] {local_task_job.py:146} INFO - Task exited with return code 0

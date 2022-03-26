@@ -1,0 +1,138 @@
+[2022-03-24 18:32:26,721] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: boston_service_request_csv.spark_submit_task 2022-02-01T00:00:00+00:00 [queued]>
+[2022-03-24 18:32:26,751] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: boston_service_request_csv.spark_submit_task 2022-02-01T00:00:00+00:00 [queued]>
+[2022-03-24 18:32:26,753] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-24 18:32:26,754] {taskinstance.py:1043} INFO - Starting attempt 3 of 3
+[2022-03-24 18:32:26,756] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-24 18:32:26,788] {taskinstance.py:1063} INFO - Executing <Task(SparkSubmitOperator): spark_submit_task> on 2022-02-01T00:00:00+00:00
+[2022-03-24 18:32:26,796] {standard_task_runner.py:52} INFO - Started process 951 to run task
+[2022-03-24 18:32:26,805] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'boston_service_request_csv', 'spark_submit_task', '2022-02-01T00:00:00+00:00', '--job-id', '25', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/boston_service_request.py', '--cfg-path', '/tmp/tmpg4ana1il', '--error-file', '/tmp/tmp00d7j69j']
+[2022-03-24 18:32:26,811] {standard_task_runner.py:77} INFO - Job 25: Subtask spark_submit_task
+[2022-03-24 18:32:26,912] {logging_mixin.py:104} INFO - Running <TaskInstance: boston_service_request_csv.spark_submit_task 2022-02-01T00:00:00+00:00 [running]> on host 9ea09cd34959
+[2022-03-24 18:32:27,008] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=boston_service_request_csv
+AIRFLOW_CTX_TASK_ID=spark_submit_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-01T00:00:00+00:00
+[2022-03-24 18:32:27,033] {base.py:74} INFO - Using connection to: id: spark_local. Host: local[*], Port: None, Schema: , Login: , Password: None, extra: None
+[2022-03-24 18:32:27,042] {spark_submit.py:335} INFO - Spark-Submit cmd: spark-submit --master local[*] --name arrow-spark /home/airflow/datalake/project.py
+[2022-03-24 18:32:33,891] {spark_submit.py:488} INFO - WARNING: An illegal reflective access operation has occurred
+[2022-03-24 18:32:33,893] {spark_submit.py:488} INFO - WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/jars/spark-unsafe_2.12-3.0.0.jar) to constructor java.nio.DirectByteBuffer(long,int)
+[2022-03-24 18:32:33,895] {spark_submit.py:488} INFO - WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+[2022-03-24 18:32:33,896] {spark_submit.py:488} INFO - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[2022-03-24 18:32:33,897] {spark_submit.py:488} INFO - WARNING: All illegal access operations will be denied in a future release
+[2022-03-24 18:32:44,875] {spark_submit.py:488} INFO - Traceback (most recent call last):
+[2022-03-24 18:32:44,878] {spark_submit.py:488} INFO - File "/home/airflow/datalake/project.py", line 18, in <module>
+[2022-03-24 18:32:44,880] {spark_submit.py:488} INFO - display(HTML("<style>pre { white-space: pre !important; }</style>"))
+[2022-03-24 18:32:44,881] {spark_submit.py:488} INFO - NameError: name 'display' is not defined
+[2022-03-24 18:32:45,185] {spark_submit.py:488} INFO - 2022-03-24 18:32:45,182 INFO util.ShutdownHookManager: Shutdown hook called
+[2022-03-24 18:32:45,190] {spark_submit.py:488} INFO - 2022-03-24 18:32:45,189 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-03ade7cb-288b-48be-9108-396f158d161d
+[2022-03-24 18:32:45,757] {taskinstance.py:1455} ERROR - Cannot execute: spark-submit --master local[*] --name arrow-spark /home/airflow/datalake/project.py. Error code is: 1.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.6/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 157, in execute
+    self._hook.submit(self._application)
+  File "/usr/local/lib/python3.6/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 420, in submit
+    f"Cannot execute: {self._mask_cmd(spark_submit_cmd)}. Error code is: {returncode}."
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master local[*] --name arrow-spark /home/airflow/datalake/project.py. Error code is: 1.
+[2022-03-24 18:32:45,770] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=boston_service_request_csv, task_id=spark_submit_task, execution_date=20220201T000000, start_date=20220324T183226, end_date=20220324T183245
+[2022-03-24 18:32:45,856] {local_task_job.py:146} INFO - Task exited with return code 1
+[2022-03-25 03:39:25,975] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: boston_service_request_csv.spark_submit_task 2022-02-01T00:00:00+00:00 [queued]>
+[2022-03-25 03:39:26,012] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: boston_service_request_csv.spark_submit_task 2022-02-01T00:00:00+00:00 [queued]>
+[2022-03-25 03:39:26,014] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-25 03:39:26,016] {taskinstance.py:1043} INFO - Starting attempt 3 of 2
+[2022-03-25 03:39:26,017] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-25 03:39:26,049] {taskinstance.py:1063} INFO - Executing <Task(SparkSubmitOperator): spark_submit_task> on 2022-02-01T00:00:00+00:00
+[2022-03-25 03:39:26,057] {standard_task_runner.py:52} INFO - Started process 246 to run task
+[2022-03-25 03:39:26,068] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'boston_service_request_csv', 'spark_submit_task', '2022-02-01T00:00:00+00:00', '--job-id', '43', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/boston_service_request.py', '--cfg-path', '/tmp/tmpshpzoga2', '--error-file', '/tmp/tmpnttnovff']
+[2022-03-25 03:39:26,076] {standard_task_runner.py:77} INFO - Job 43: Subtask spark_submit_task
+[2022-03-25 03:39:26,188] {logging_mixin.py:104} INFO - Running <TaskInstance: boston_service_request_csv.spark_submit_task 2022-02-01T00:00:00+00:00 [running]> on host 005f1eb3cb65
+[2022-03-25 03:39:26,311] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=boston_service_request_csv
+AIRFLOW_CTX_TASK_ID=spark_submit_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-01T00:00:00+00:00
+[2022-03-25 03:39:26,338] {base.py:74} INFO - Using connection to: id: spark_local. Host: local[*], Port: None, Schema: , Login: , Password: None, extra: None
+[2022-03-25 03:39:26,348] {spark_submit.py:335} INFO - Spark-Submit cmd: spark-submit --master local[*] --name arrow-spark /home/airflow/datalake/project.py
+[2022-03-25 03:39:33,689] {spark_submit.py:488} INFO - WARNING: An illegal reflective access operation has occurred
+[2022-03-25 03:39:33,692] {spark_submit.py:488} INFO - WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/opt/spark/jars/spark-unsafe_2.12-3.0.0.jar) to constructor java.nio.DirectByteBuffer(long,int)
+[2022-03-25 03:39:33,694] {spark_submit.py:488} INFO - WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+[2022-03-25 03:39:33,695] {spark_submit.py:488} INFO - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[2022-03-25 03:39:33,698] {spark_submit.py:488} INFO - WARNING: All illegal access operations will be denied in a future release
+[2022-03-25 03:39:45,250] {spark_submit.py:488} INFO - 2022-03-25 03:39:45,233 INFO spark.SparkContext: Running Spark version 3.0.0
+[2022-03-25 03:39:45,690] {spark_submit.py:488} INFO - 2022-03-25 03:39:45,689 INFO resource.ResourceUtils: ==============================================================
+[2022-03-25 03:39:45,697] {spark_submit.py:488} INFO - 2022-03-25 03:39:45,697 INFO resource.ResourceUtils: Resources for spark.driver:
+[2022-03-25 03:39:45,699] {spark_submit.py:488} INFO - 
+[2022-03-25 03:39:45,701] {spark_submit.py:488} INFO - 2022-03-25 03:39:45,700 INFO resource.ResourceUtils: ==============================================================
+[2022-03-25 03:39:45,704] {spark_submit.py:488} INFO - 2022-03-25 03:39:45,703 INFO spark.SparkContext: Submitted application: Boston Service Request
+[2022-03-25 03:39:45,990] {spark_submit.py:488} INFO - 2022-03-25 03:39:45,989 INFO spark.SecurityManager: Changing view acls to: airflow
+[2022-03-25 03:39:45,991] {spark_submit.py:488} INFO - 2022-03-25 03:39:45,989 INFO spark.SecurityManager: Changing modify acls to: airflow
+[2022-03-25 03:39:45,993] {spark_submit.py:488} INFO - 2022-03-25 03:39:45,990 INFO spark.SecurityManager: Changing view acls groups to:
+[2022-03-25 03:39:45,994] {spark_submit.py:488} INFO - 2022-03-25 03:39:45,991 INFO spark.SecurityManager: Changing modify acls groups to:
+[2022-03-25 03:39:45,995] {spark_submit.py:488} INFO - 2022-03-25 03:39:45,991 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(airflow); groups with view permissions: Set(); users  with modify permissions: Set(airflow); groups with modify permissions: Set()
+[2022-03-25 03:39:47,474] {spark_submit.py:488} INFO - 2022-03-25 03:39:47,473 INFO util.Utils: Successfully started service 'sparkDriver' on port 38149.
+[2022-03-25 03:39:47,628] {spark_submit.py:488} INFO - 2022-03-25 03:39:47,627 INFO spark.SparkEnv: Registering MapOutputTracker
+[2022-03-25 03:39:47,773] {spark_submit.py:488} INFO - 2022-03-25 03:39:47,772 INFO spark.SparkEnv: Registering BlockManagerMaster
+[2022-03-25 03:39:47,840] {spark_submit.py:488} INFO - 2022-03-25 03:39:47,839 INFO storage.BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2022-03-25 03:39:47,843] {spark_submit.py:488} INFO - 2022-03-25 03:39:47,843 INFO storage.BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2022-03-25 03:39:47,869] {spark_submit.py:488} INFO - 2022-03-25 03:39:47,868 INFO spark.SparkEnv: Registering BlockManagerMasterHeartbeat
+[2022-03-25 03:39:47,923] {spark_submit.py:488} INFO - 2022-03-25 03:39:47,922 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-cb3e310e-476d-444b-ae5a-cbd98f8d9c7c
+[2022-03-25 03:39:48,022] {spark_submit.py:488} INFO - 2022-03-25 03:39:48,021 INFO memory.MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2022-03-25 03:39:48,103] {spark_submit.py:488} INFO - 2022-03-25 03:39:48,102 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+[2022-03-25 03:39:48,545] {spark_submit.py:488} INFO - 2022-03-25 03:39:48,544 INFO util.log: Logging initialized @20642ms to org.sparkproject.jetty.util.log.Slf4jLog
+[2022-03-25 03:39:48,794] {spark_submit.py:488} INFO - 2022-03-25 03:39:48,793 INFO server.Server: jetty-9.4.z-SNAPSHOT; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 11.0.14+9-post-Debian-1deb10u1
+[2022-03-25 03:39:48,870] {spark_submit.py:488} INFO - 2022-03-25 03:39:48,870 INFO server.Server: Started @20977ms
+[2022-03-25 03:39:49,002] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,002 INFO server.AbstractConnector: Started ServerConnector@648a5e8e{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+[2022-03-25 03:39:49,004] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,002 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+[2022-03-25 03:39:49,112] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,111 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@432c6949{/jobs,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,122] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,121 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@5ffb8b83{/jobs/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,125] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,125 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@812860f{/jobs/job,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,142] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,141 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@1e3538bc{/jobs/job/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,146] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,145 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2bfbcb65{/stages,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,149] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,148 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7badbd05{/stages/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,151] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,151 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3b25f67c{/stages/stage,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,166] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,165 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@624744b7{/stages/stage/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,172] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,171 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6238caf3{/stages/pool,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,178] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,177 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@164c5a00{/stages/pool/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,182] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,182 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@68e010a6{/storage,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,188] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,187 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@646ab690{/storage/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,195] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,194 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@19fdca03{/storage/rdd,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,199] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,198 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2b85142f{/storage/rdd/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,203] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,202 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@29d7d13d{/environment,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,218] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,217 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6729dbde{/environment/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,225] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,225 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4377d348{/executors,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,230] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,230 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7acf04d2{/executors/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,238] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,238 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@26b64009{/executors/threadDump,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,247] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,246 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7983dfcb{/executors/threadDump/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,290] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,290 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7c0e235{/static,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,302] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,302 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@43eabfed{/,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,312] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,312 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@16a2b140{/api,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,319] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,319 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@aa3da86{/jobs/job/kill,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,326] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,326 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3125c36a{/stages/stage/kill,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:49,343] {spark_submit.py:488} INFO - 2022-03-25 03:39:49,342 INFO ui.SparkUI: Bound SparkUI to 0.0.0.0, and started at http://005f1eb3cb65:4040
+[2022-03-25 03:39:50,438] {spark_submit.py:488} INFO - 2022-03-25 03:39:50,438 INFO executor.Executor: Starting executor ID driver on host 005f1eb3cb65
+[2022-03-25 03:39:50,611] {spark_submit.py:488} INFO - 2022-03-25 03:39:50,611 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43487.
+[2022-03-25 03:39:50,614] {spark_submit.py:488} INFO - 2022-03-25 03:39:50,614 INFO netty.NettyBlockTransferService: Server created on 005f1eb3cb65:43487
+[2022-03-25 03:39:50,626] {spark_submit.py:488} INFO - 2022-03-25 03:39:50,626 INFO storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2022-03-25 03:39:50,655] {spark_submit.py:488} INFO - 2022-03-25 03:39:50,655 INFO storage.BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 005f1eb3cb65, 43487, None)
+[2022-03-25 03:39:50,681] {spark_submit.py:488} INFO - 2022-03-25 03:39:50,678 INFO storage.BlockManagerMasterEndpoint: Registering block manager 005f1eb3cb65:43487 with 434.4 MiB RAM, BlockManagerId(driver, 005f1eb3cb65, 43487, None)
+[2022-03-25 03:39:50,698] {spark_submit.py:488} INFO - 2022-03-25 03:39:50,698 INFO storage.BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 005f1eb3cb65, 43487, None)
+[2022-03-25 03:39:50,707] {spark_submit.py:488} INFO - 2022-03-25 03:39:50,706 INFO storage.BlockManager: Initialized BlockManager: BlockManagerId(driver, 005f1eb3cb65, 43487, None)
+[2022-03-25 03:39:51,520] {spark_submit.py:488} INFO - 2022-03-25 03:39:51,518 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3319d19d{/metrics/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:53,787] {spark_submit.py:488} INFO - 2022-03-25 03:39:53,786 INFO internal.SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/opt/airflow/spark-warehouse').
+[2022-03-25 03:39:53,791] {spark_submit.py:488} INFO - 2022-03-25 03:39:53,790 INFO internal.SharedState: Warehouse path is 'file:/opt/airflow/spark-warehouse'.
+[2022-03-25 03:39:53,844] {spark_submit.py:488} INFO - 2022-03-25 03:39:53,843 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@41158e79{/SQL,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:53,847] {spark_submit.py:488} INFO - 2022-03-25 03:39:53,847 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6dad4a62{/SQL/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:53,853] {spark_submit.py:488} INFO - 2022-03-25 03:39:53,852 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3bb4f803{/SQL/execution,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:53,857] {spark_submit.py:488} INFO - 2022-03-25 03:39:53,857 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@22035e47{/SQL/execution/json,null,AVAILABLE,@Spark}
+[2022-03-25 03:39:53,928] {spark_submit.py:488} INFO - 2022-03-25 03:39:53,926 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2fa412cb{/static/sql,null,AVAILABLE,@Spark}

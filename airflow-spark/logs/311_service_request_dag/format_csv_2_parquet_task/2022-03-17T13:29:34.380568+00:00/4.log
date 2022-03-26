@@ -1,0 +1,22 @@
+[2022-03-19 18:13:13,130] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: 311_service_request_dag.format_csv_2_parquet_task 2022-03-17T13:29:34.380568+00:00 [queued]>
+[2022-03-19 18:13:13,161] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: 311_service_request_dag.format_csv_2_parquet_task 2022-03-17T13:29:34.380568+00:00 [queued]>
+[2022-03-19 18:13:13,162] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-19 18:13:13,164] {taskinstance.py:1043} INFO - Starting attempt 4 of 4
+[2022-03-19 18:13:13,165] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-19 18:13:13,193] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): format_csv_2_parquet_task> on 2022-03-17T13:29:34.380568+00:00
+[2022-03-19 18:13:13,201] {standard_task_runner.py:52} INFO - Started process 468 to run task
+[2022-03-19 18:13:13,210] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', '311_service_request_dag', 'format_csv_2_parquet_task', '2022-03-17T13:29:34.380568+00:00', '--job-id', '78', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/311_download_ingest_gcs.py', '--cfg-path', '/tmp/tmpo33lve4h', '--error-file', '/tmp/tmpj7_h7pww']
+[2022-03-19 18:13:13,217] {standard_task_runner.py:77} INFO - Job 78: Subtask format_csv_2_parquet_task
+[2022-03-19 18:13:13,296] {logging_mixin.py:104} INFO - Running <TaskInstance: 311_service_request_dag.format_csv_2_parquet_task 2022-03-17T13:29:34.380568+00:00 [running]> on host 3278a52a4586
+[2022-03-19 18:13:13,377] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=311_service_request_dag
+AIRFLOW_CTX_TASK_ID=format_csv_2_parquet_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-17T13:29:34.380568+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-17T13:29:34.380568+00:00
+[2022-03-19 18:13:13,502] {python.py:118} INFO - Done. Returned value was: None
+[2022-03-19 18:13:13,527] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=311_service_request_dag, task_id=format_csv_2_parquet_task, execution_date=20220317T132934, start_date=20220319T181313, end_date=20220319T181313
+[2022-03-19 18:13:13,589] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-03-19 18:13:13,635] {local_task_job.py:146} INFO - Task exited with return code 0

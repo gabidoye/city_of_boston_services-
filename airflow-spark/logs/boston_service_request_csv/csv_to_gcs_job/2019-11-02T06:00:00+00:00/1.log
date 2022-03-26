@@ -1,0 +1,22 @@
+[2022-03-23 03:53:05,433] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: boston_service_request_csv.csv_to_gcs_job 2019-11-02T06:00:00+00:00 [queued]>
+[2022-03-23 03:53:05,472] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: boston_service_request_csv.csv_to_gcs_job 2019-11-02T06:00:00+00:00 [queued]>
+[2022-03-23 03:53:05,474] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 03:53:05,476] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2022-03-23 03:53:05,477] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-23 03:53:05,505] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): csv_to_gcs_job> on 2019-11-02T06:00:00+00:00
+[2022-03-23 03:53:05,514] {standard_task_runner.py:52} INFO - Started process 955 to run task
+[2022-03-23 03:53:05,524] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'boston_service_request_csv', 'csv_to_gcs_job', '2019-11-02T06:00:00+00:00', '--job-id', '156', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/boston_service_request.py', '--cfg-path', '/tmp/tmp_mjhx0_n', '--error-file', '/tmp/tmpx1410cs5']
+[2022-03-23 03:53:05,531] {standard_task_runner.py:77} INFO - Job 156: Subtask csv_to_gcs_job
+[2022-03-23 03:53:05,636] {logging_mixin.py:104} INFO - Running <TaskInstance: boston_service_request_csv.csv_to_gcs_job 2019-11-02T06:00:00+00:00 [running]> on host 294e23567a6c
+[2022-03-23 03:53:05,753] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=boston_service_request_csv
+AIRFLOW_CTX_TASK_ID=csv_to_gcs_job
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-11-02T06:00:00+00:00
+[2022-03-23 03:53:29,417] {python.py:118} INFO - Done. Returned value was: None
+[2022-03-23 03:53:29,450] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=boston_service_request_csv, task_id=csv_to_gcs_job, execution_date=20191102T060000, start_date=20220323T035305, end_date=20220323T035329
+[2022-03-23 03:53:29,520] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-03-23 03:53:29,577] {local_task_job.py:146} INFO - Task exited with return code 0

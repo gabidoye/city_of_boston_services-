@@ -1,0 +1,23 @@
+[2022-03-22 22:47:58,095] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: fifa_player_dag.upload_to_gcs_job 2022-03-22T06:55:38.713472+00:00 [queued]>
+[2022-03-22 22:47:58,126] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: fifa_player_dag.upload_to_gcs_job 2022-03-22T06:55:38.713472+00:00 [queued]>
+[2022-03-22 22:47:58,127] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-22 22:47:58,129] {taskinstance.py:1043} INFO - Starting attempt 3 of 3
+[2022-03-22 22:47:58,131] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-22 22:47:58,161] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): upload_to_gcs_job> on 2022-03-22T06:55:38.713472+00:00
+[2022-03-22 22:47:58,171] {standard_task_runner.py:52} INFO - Started process 9877 to run task
+[2022-03-22 22:47:58,180] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'fifa_player_dag', 'upload_to_gcs_job', '2022-03-22T06:55:38.713472+00:00', '--job-id', '121', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/311_download_ingest_gcs.py', '--cfg-path', '/tmp/tmpu021lfin', '--error-file', '/tmp/tmpnqzhsznd']
+[2022-03-22 22:47:58,186] {standard_task_runner.py:77} INFO - Job 121: Subtask upload_to_gcs_job
+[2022-03-22 22:47:58,266] {logging_mixin.py:104} INFO - Running <TaskInstance: fifa_player_dag.upload_to_gcs_job 2022-03-22T06:55:38.713472+00:00 [running]> on host 5b89a1c58760
+[2022-03-22 22:47:58,345] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=fifa_player_dag
+AIRFLOW_CTX_TASK_ID=upload_to_gcs_job
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-22T06:55:38.713472+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-22T06:55:38.713472+00:00
+[2022-03-22 22:48:22,436] {logging_mixin.py:104} INFO - <Bucket: datalake-311-bronze> with object_name fifa-22-complete-player-dataset.zip uploaded to /opt/airflow/fifa-22-complete-player-dataset.zip.
+[2022-03-22 22:48:22,444] {python.py:118} INFO - Done. Returned value was: None
+[2022-03-22 22:48:22,496] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=fifa_player_dag, task_id=upload_to_gcs_job, execution_date=20220322T065538, start_date=20220322T224758, end_date=20220322T224822
+[2022-03-22 22:48:22,556] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-03-22 22:48:22,579] {local_task_job.py:146} INFO - Task exited with return code 0

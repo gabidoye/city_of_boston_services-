@@ -1,0 +1,57 @@
+[2022-03-17 04:00:47,435] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: testing_dag.ingest 2020-12-02T06:00:00+00:00 [queued]>
+[2022-03-17 04:00:47,474] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: testing_dag.ingest 2020-12-02T06:00:00+00:00 [queued]>
+[2022-03-17 04:00:47,476] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-17 04:00:47,477] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2022-03-17 04:00:47,479] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-17 04:00:47,507] {taskinstance.py:1063} INFO - Executing <Task(BashOperator): ingest> on 2020-12-02T06:00:00+00:00
+[2022-03-17 04:00:47,512] {standard_task_runner.py:52} INFO - Started process 1530 to run task
+[2022-03-17 04:00:47,522] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'testing_dag', 'ingest', '2020-12-02T06:00:00+00:00', '--job-id', '49', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/testing_dag.py', '--cfg-path', '/tmp/tmpv7yk3s2r', '--error-file', '/tmp/tmpkubu5esq']
+[2022-03-17 04:00:47,530] {standard_task_runner.py:77} INFO - Job 49: Subtask ingest
+[2022-03-17 04:00:47,637] {logging_mixin.py:104} INFO - Running <TaskInstance: testing_dag.ingest 2020-12-02T06:00:00+00:00 [running]> on host 509d5aa4e827
+[2022-03-17 04:00:47,748] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=testing_dag
+AIRFLOW_CTX_TASK_ID=ingest
+AIRFLOW_CTX_EXECUTION_DATE=2020-12-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-12-02T06:00:00+00:00
+[2022-03-17 04:00:47,751] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2022-03-17 04:00:47,754] {bash.py:158} INFO - Running command: ls /opt/airflow
+[2022-03-17 04:00:47,768] {bash.py:169} INFO - Output:
+[2022-03-17 04:00:47,841] {bash.py:173} INFO - airflow.cfg
+[2022-03-17 04:00:47,843] {bash.py:173} INFO - dags
+[2022-03-17 04:00:47,845] {bash.py:173} INFO - google_credentials.json
+[2022-03-17 04:00:47,848] {bash.py:173} INFO - logs
+[2022-03-17 04:00:47,849] {bash.py:173} INFO - output_2019-01.csv
+[2022-03-17 04:00:47,851] {bash.py:173} INFO - output_2019-02.csv
+[2022-03-17 04:00:47,852] {bash.py:173} INFO - output_2019-03.csv
+[2022-03-17 04:00:47,854] {bash.py:173} INFO - output_2019-04.csv
+[2022-03-17 04:00:47,855] {bash.py:173} INFO - output_2019-05.csv
+[2022-03-17 04:00:47,857] {bash.py:173} INFO - output_2019-06.csv
+[2022-03-17 04:00:47,858] {bash.py:173} INFO - output_2019-07.csv
+[2022-03-17 04:00:47,860] {bash.py:173} INFO - output_2019-08.csv
+[2022-03-17 04:00:47,861] {bash.py:173} INFO - output_2019-09.csv
+[2022-03-17 04:00:47,862] {bash.py:173} INFO - output_2019-10.csv
+[2022-03-17 04:00:47,863] {bash.py:173} INFO - output_2019-11.csv
+[2022-03-17 04:00:47,866] {bash.py:173} INFO - output_2019-12.csv
+[2022-03-17 04:00:47,867] {bash.py:173} INFO - output_2020-01.csv
+[2022-03-17 04:00:47,869] {bash.py:173} INFO - output_2020-02.csv
+[2022-03-17 04:00:47,870] {bash.py:173} INFO - output_2020-03.csv
+[2022-03-17 04:00:47,871] {bash.py:173} INFO - output_2020-04.csv
+[2022-03-17 04:00:47,873] {bash.py:173} INFO - output_2020-05.csv
+[2022-03-17 04:00:47,874] {bash.py:173} INFO - output_2020-06.csv
+[2022-03-17 04:00:47,875] {bash.py:173} INFO - output_2020-07.csv
+[2022-03-17 04:00:47,877] {bash.py:173} INFO - output_2020-08.csv
+[2022-03-17 04:00:47,878] {bash.py:173} INFO - output_2020-09.csv
+[2022-03-17 04:00:47,880] {bash.py:173} INFO - output_2020-10.csv
+[2022-03-17 04:00:47,881] {bash.py:173} INFO - output_2020-11.csv
+[2022-03-17 04:00:47,883] {bash.py:173} INFO - output_2020-12.csv
+[2022-03-17 04:00:47,884] {bash.py:173} INFO - plugins
+[2022-03-17 04:00:47,886] {bash.py:173} INFO - unittests.cfg
+[2022-03-17 04:00:47,887] {bash.py:173} INFO - webserver_config.py
+[2022-03-17 04:00:47,889] {bash.py:177} INFO - Command exited with return code 0
+[2022-03-17 04:00:47,944] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=testing_dag, task_id=ingest, execution_date=20201202T060000, start_date=20220317T040047, end_date=20220317T040047
+[2022-03-17 04:00:48,002] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-03-17 04:00:48,016] {local_task_job.py:146} INFO - Task exited with return code 0

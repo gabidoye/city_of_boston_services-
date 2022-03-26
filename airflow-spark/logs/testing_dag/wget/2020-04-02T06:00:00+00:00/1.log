@@ -1,0 +1,29 @@
+[2022-03-17 03:25:40,281] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: testing_dag.wget 2020-04-02T06:00:00+00:00 [queued]>
+[2022-03-17 03:25:40,321] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: testing_dag.wget 2020-04-02T06:00:00+00:00 [queued]>
+[2022-03-17 03:25:40,323] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-17 03:25:40,325] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2022-03-17 03:25:40,326] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-17 03:25:40,353] {taskinstance.py:1063} INFO - Executing <Task(BashOperator): wget> on 2020-04-02T06:00:00+00:00
+[2022-03-17 03:25:40,358] {standard_task_runner.py:52} INFO - Started process 1293 to run task
+[2022-03-17 03:25:40,366] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'testing_dag', 'wget', '2020-04-02T06:00:00+00:00', '--job-id', '35', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/testing_dag.py', '--cfg-path', '/tmp/tmpdi6to608', '--error-file', '/tmp/tmp2vy3_3y6']
+[2022-03-17 03:25:40,372] {standard_task_runner.py:77} INFO - Job 35: Subtask wget
+[2022-03-17 03:25:40,475] {logging_mixin.py:104} INFO - Running <TaskInstance: testing_dag.wget 2020-04-02T06:00:00+00:00 [running]> on host 509d5aa4e827
+[2022-03-17 03:25:40,658] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=testing_dag
+AIRFLOW_CTX_TASK_ID=wget
+AIRFLOW_CTX_EXECUTION_DATE=2020-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-04-02T06:00:00+00:00
+[2022-03-17 03:25:40,661] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2022-03-17 03:25:40,664] {bash.py:158} INFO - Running command: curl -sSL https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2020-04.csv > /opt/airflow/output_2020-04.csv
+[2022-03-17 03:25:40,681] {bash.py:169} INFO - Output:
+[2022-03-17 03:59:29,494] {local_task_job.py:188} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-03-17 03:59:29,525] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 1293
+[2022-03-17 03:59:29,537] {taskinstance.py:1239} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-03-17 03:59:29,542] {bash.py:185} INFO - Sending SIGTERM signal to bash process group
+[2022-03-17 03:59:29,682] {process_utils.py:66} INFO - Process psutil.Process(pid=1293, status='terminated', exitcode=0, started='03:25:40') (1293) terminated with exit code 0
+[2022-03-17 03:59:29,686] {process_utils.py:66} INFO - Process psutil.Process(pid=1301, status='terminated', started='03:25:40') (1301) terminated with exit code None
+[2022-03-17 03:59:29,690] {process_utils.py:66} INFO - Process psutil.Process(pid=1307, status='terminated', started='03:25:40') (1307) terminated with exit code None
