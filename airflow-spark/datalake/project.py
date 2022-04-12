@@ -54,7 +54,7 @@ df = spark.read.option("header",True).schema(schema).csv("gs://datalake-311-bron
 
 df.write.format('bigquery').option('project','dataengineering-bizzy').option('table','boston_service_request.boston_311_raw').option("temporaryGcsBucket","datalake-311-silver").mode("overwrite").save()
 
-#df.write.format("parquet").option("path", "gs://datalake-311-silver/archive/").save() 
+df.write.format("parquet").option("path", "gs://datalake-311-silver/archive/").save() 
 
 df = spark.read.format('bigquery').option('project','dataengineering-bizzy').option('table','boston_service_request.boston_311_raw').load()
 
@@ -70,23 +70,23 @@ df2 =df_time.na.fill(value=0,subset=["resolution_time_sec", "resolution_time_min
 
 df2.createOrReplaceTempView("service_request")
 
-#1.  Most used channel for request
+
 
 spark.sql("select source, count(source) as Total from service_request group by source order by Total desc").show(truncate=False)
 
-# 2. Percent of ticket resolved ontime
+
 
 spark.sql("select ontime, count(ontime), SUM(COUNT(ontime)) OVER() AS total_count, count(ontime) *100.0 /sum(count(ontime)) over () as request_percent from service_request group by ontime").show(truncate=False)
 
-# 3. Maximum no of days to resolve a ticket in each category
+
 spark.sql("select case_enquiry_id,open_dt,closed_dt,case_title, resolution_time_mins, (resolution_time_mins/60/24) as resolution_days from "\
           "(select * ,row_number() OVER (PARTITION BY type ORDER BY resolution_time_mins DESC) as rn "\
           " from service_request) tmp where rn <=1").show(truncate=False)
 
-#4. Most frequent request
+
 spark.sql("select case_title, count(case_title) as total from service_request group by case_title order by total desc").show(truncate=False)
 
-# 5. Average Resolution Time of a Case Type
+
 spark.sql("select case_title, average_res_time_mins, (average_res_time_mins/60/24) as resolution_days from "\
           "(select * ,AVG(resolution_time_mins) OVER (PARTITION BY case_title ORDER BY case_title DESC) as average_res_time_mins "\
           "from service_request) group by case_title, average_res_time_mins,(average_res_time_mins/60/24) \

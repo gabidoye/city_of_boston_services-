@@ -32,6 +32,9 @@ This project produces a pipeline which:
 > Architecture
 > <img width="891" alt="image" src="https://user-images.githubusercontent.com/86935340/159110024-cab9b753-0b69-4314-9efb-9ad7e9650a2c.png">
 
+## How the Ochestration/DAG Work
+
+The BashOperator if used to download the file from the API, the data is ingested into GCS with the pythonOperator. A sparkSubmitOperator is used to read the data from GCS, trasform it and  load transform data to BigQuery. Data Studio was used to connect to the transformed data and dashboard i built from it. 
 
 ## Dataset
 [City of Boston Dataset](https://data.boston.gov/dataset/8048697b-ad64-4bfc-b090-ee00169f2323/resource/f53ebccd-bc61-49f9-83db-625f209c95f5/download/tmppgq9965_.csv)
@@ -61,4 +64,26 @@ This project produces a pipeline which:
 ## Dashboard Tiles
 ## 
 [Visualization](https://datastudio.google.com/reporting/d99a4623-74d2-40ee-a1f6-7e3180cb77e2)
+
+
+
+![](2022-04-10-21-28-27.png)
+
+## Steps to reproduce
+1. Create a gcp account
+2. Configure Google SDK, create a service account and download you secret key(json)
+3. Clone the repo
+4. Provision your google infrastructure(GCS, Bigquery) with Terraform
+5. Update the location of your secret key in the docker file
+6. Run the docker-compose.yaml file which contains Airflow, Spark, PostgreSQL (docker-compose up -d)
+7. Confirm all service are started.
+8. Connect to Airflow and turn on the DAG.
+9. Trigger the dag or wait for its scheduled run(once a month)
+10. Connect to bigQuery to explore loaded data and connect Data Studio to build dashboards.
+
+
+
+
+
+
 
