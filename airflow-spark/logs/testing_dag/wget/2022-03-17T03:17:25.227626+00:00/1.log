@@ -1,3 +1,0 @@
-[2022-03-17 03:18:52,212] {taskinstance.py:845} INFO - Dependencies not met for <TaskInstance: testing_dag.wget 2022-03-17T03:17:25.227626+00:00 [queued]>, dependency 'Execution Date' FAILED: The execution date is 2022-03-17T03:17:25.227626+00:00 but this is after the task's end date 2021-01-01T00:00:00+00:00.
-[2022-03-17 03:18:52,214] {taskinstance.py:845} INFO - Dependencies not met for <TaskInstance: testing_dag.wget 2022-03-17T03:17:25.227626+00:00 [queued]>, dependency 'Execution Date' FAILED: The execution date is 2022-03-17T03:17:25.227626+00:00 but this is after the task's DAG's end date 2021-01-01T00:00:00+00:00.
-[2022-03-17 03:18:52,233] {local_task_job.py:93} INFO - Task is not able to be run
