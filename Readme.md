@@ -16,7 +16,6 @@ KPI's
   3.  Determine the impact of the 311 system on 911 Emergency System (more efficient by diverting non-emergency calls that could impede the City's emergency response.)
 
 
-The pipeline refreshes data on a monthly basis with 311 request information recieved, extracting the raw data into data lake first for storage, transforming the data and loading into data warehouse(bigQuery) for easier dashboard construction and analytics.
 
 ## Project high level design
 This project produces a pipeline which:
@@ -35,6 +34,7 @@ This project produces a pipeline which:
 ## How the Ochestration/DAG Work
 
 The BashOperator if used to download the file from the API, the data is ingested into GCS with the pythonOperator. A sparkSubmitOperator is used to read the data from GCS, trasform it and  load transform data to BigQuery. Data Studio was used to connect to the transformed data and dashboard i built from it. 
+The pipeline refreshes data on a monthly basis with 311 request information recieved, extracting the raw data into data lake first for storage, transforming the data and loading into data warehouse(bigQuery) for easier dashboard construction and analytics.
 
 ## Dataset
 [City of Boston Dataset](https://data.boston.gov/dataset/8048697b-ad64-4bfc-b090-ee00169f2323/resource/f53ebccd-bc61-49f9-83db-625f209c95f5/download/tmppgq9965_.csv)
@@ -47,6 +47,20 @@ The BashOperator if used to download the file from the API, the data is ingested
 4. Workflow orchestration: Airflow 
 5. Data Warehouse: BigQuery 
 6. Transformations: PySpark
+
+## Steps to reproduce
+1. Create a gcp account
+2. Configure Google SDK, create a service account and download you secret key(json)
+3. Clone the repo
+4. Provision your google infrastructure(GCS, Bigquery) with Terraform
+5. Update the location of your secret key in the docker file
+6. Run the docker-compose.yaml file which contains Airflow, Spark, PostgreSQL (docker-compose up -d)
+7. Confirm all service are started.
+8. Connect to Airflow and turn on the DAG.
+9. Trigger the dag or wait for its scheduled run(once a month)
+10. Connect to bigQuery to explore loaded data and connect Data Studio to build dashboards.
+
+
 
 ## Proposal to address the requirements
 1. **Data ingestion** - Using Airflow to download the dataset and place it in google cloud storage(GCS)
@@ -67,19 +81,7 @@ The BashOperator if used to download the file from the API, the data is ingested
 
 
 
-![](2022-04-10-21-28-27.png)
-
-## Steps to reproduce
-1. Create a gcp account
-2. Configure Google SDK, create a service account and download you secret key(json)
-3. Clone the repo
-4. Provision your google infrastructure(GCS, Bigquery) with Terraform
-5. Update the location of your secret key in the docker file
-6. Run the docker-compose.yaml file which contains Airflow, Spark, PostgreSQL (docker-compose up -d)
-7. Confirm all service are started.
-8. Connect to Airflow and turn on the DAG.
-9. Trigger the dag or wait for its scheduled run(once a month)
-10. Connect to bigQuery to explore loaded data and connect Data Studio to build dashboards.
+![](res/2022-04-10-21-28-27.png)
 
 
 
