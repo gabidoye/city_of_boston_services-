@@ -1,0 +1,10 @@
+Create a gcp account
+Configure Google SDK, create a service account and download you secret key(json)
+Clone the repo
+Provision your google infrastructure(GCS, Bigquery) with Terraform
+Update the location of your secret key in the docker file
+Run the docker-compose.yaml file which contains Airflow, Spark, PostgreSQL (docker-compose up -d)
+Confirm all service are started.
+Connect to Airflow and turn on the DAG.
+Trigger the dag or wait for its scheduled run(once a month)
+Connect to bigQuery to explore loaded data and connect Data Studio to build dashboards.
